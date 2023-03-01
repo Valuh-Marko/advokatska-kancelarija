@@ -1,0 +1,85 @@
+@import "../../styles/variables";
+
+.c-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: $alabaster;
+  background-color: rgba($richBlackFogra39, .75);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 15.625rem;
+  z-index: 999;
+  transition: all .2s linear;
+
+  &.c-header--short {
+    padding: .625rem 15.625rem;
+    background-color: $richBlackFogra39;
+  }
+}
+
+.c-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .313rem;
+}
+
+.c-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: $playfairDisplay;
+  line-height: 2rem;
+  margin-top: -5px;
+}
+
+.c-icon {
+  cursor: pointer;
+  aspect-ratio: 1;
+  width: 12px;
+
+  &.c-icon--logo {
+    width: 2rem;
+    height: 2rem;
+    color: $copper;
+  }
+}
+
+.c-header-nav-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.c-header-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 1px;
+    background-color: $alabaster;
+    height: 30px;
+  }
+}
+
+.c-header-socials {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.c-header__link {
+  color: $alabaster;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: $raleway;
+  cursor: pointer;
+}
+
+.c-header-socials__link {
+  color: $alabaster;
+}

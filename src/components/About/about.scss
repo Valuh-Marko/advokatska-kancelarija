@@ -1,0 +1,40 @@
+@import "../../styles/variables";
+
+.c-about {
+  margin-right: 15.625rem;
+  display: flex;
+  align-items: center;
+  color: $richBlackFogra39;
+}
+
+.c-about-text__container {
+  padding: 2.5rem 0;
+  padding-right: 5rem;
+  background-color: $alabaster;
+  padding-left: 15.625rem;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+  
+  & > * {
+    max-width: 40.625rem;
+    margin-left: auto;
+  }
+
+  .c-divider {
+    transform: translateX(50%);
+  }
+}
+
+.c-about__heading {
+  line-height: 4rem;
+  font-size: 3rem;
+  letter-spacing: -0.005em;
+}
+
+.c-about-img {
+  width: 25rem;
+}

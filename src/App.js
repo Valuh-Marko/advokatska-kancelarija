@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { About } from "./components/About/about";
+import { Banner } from "./components/Banner/banner";
+import { Header } from "./components/Header/Header";
+import { OurWork } from "./components/OurWork/our-work";
+import { Team } from "./components/Team/team";
+import { GeneralProvider } from "./context/GeneralContext";
+import { motion, useScroll, useTransform } from "framer-motion";
+import "./styles/styles.scss";
 
 function App() {
+  let { scrollYProgress } = useScroll();
+  let y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <GeneralProvider>
+      <div className="App">
+        <Header />
+        <Banner />
+        <About />
+        <OurWork />
+        <Team />
+        <motion.div className="c-bottom-bg"
+          style={{ y }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+        </motion.div>
+      </div>
+    </GeneralProvider>
   );
 }
 

@@ -1,0 +1,36 @@
+@import "../../styles/variables";
+
+.c-work-card {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: $richBlackFogra39;
+
+  & > *:not(img) {
+    position: relative;
+  }
+}
+
+.c-work-card__bg {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  object-fit: cover;
+  left: -30%;
+  opacity: 45%;
+}
+
+.c-work-card__info {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  gap: 1.25rem;
+}
+
+.c-work-card__title {
+  font-size: 1.625rem;
+}
