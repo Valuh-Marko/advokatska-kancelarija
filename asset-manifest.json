@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.958b9ceb.css",
-    "main.js": "/static/js/main.f8db0832.js",
-    "static/media/bottomBg.jpg": "/static/media/bottomBg.cd1331f16e5de63e2536.jpg",
-    "static/media/bannerBg.jpg": "/static/media/bannerBg.90d5c4ac6db375901132.jpg",
-    "static/media/aboutImg.jpg": "/static/media/aboutImg.77bc5b45dac00d4f90aa.jpg",
-    "static/media/buttonBg.png": "/static/media/buttonBg.faf7f407ae6e60aaf603.png",
-    "static/media/ornament15.svg": "/static/media/ornament15.7fa231cfd627b7fa3f84c49021d0bf4d.svg",
-    "static/media/ornament16.svg": "/static/media/ornament16.9f7ef2c45dc8c39829705a41dc8610e7.svg",
-    "index.html": "/index.html",
-    "main.958b9ceb.css.map": "/static/css/main.958b9ceb.css.map",
-    "main.f8db0832.js.map": "/static/js/main.f8db0832.js.map"
+    "main.css": "//valuh-marko.github.io/advokatska-kancelarija/static/css/main.60b8a395.css",
+    "main.js": "//valuh-marko.github.io/advokatska-kancelarija/static/js/main.85b1c553.js",
+    "static/media/bottomBg.jpg": "//valuh-marko.github.io/advokatska-kancelarija/static/media/bottomBg.cd1331f16e5de63e2536.jpg",
+    "static/media/bannerBg.jpg": "//valuh-marko.github.io/advokatska-kancelarija/static/media/bannerBg.90d5c4ac6db375901132.jpg",
+    "static/media/aboutImg.jpg": "//valuh-marko.github.io/advokatska-kancelarija/static/media/aboutImg.77bc5b45dac00d4f90aa.jpg",
+    "static/media/buttonBg.png": "//valuh-marko.github.io/advokatska-kancelarija/static/media/buttonBg.faf7f407ae6e60aaf603.png",
+    "static/media/ornament15.svg": "//valuh-marko.github.io/advokatska-kancelarija/static/media/ornament15.7fa231cfd627b7fa3f84c49021d0bf4d.svg",
+    "static/media/ornament16.svg": "//valuh-marko.github.io/advokatska-kancelarija/static/media/ornament16.9f7ef2c45dc8c39829705a41dc8610e7.svg",
+    "index.html": "//valuh-marko.github.io/advokatska-kancelarija/index.html",
+    "main.60b8a395.css.map": "//valuh-marko.github.io/advokatska-kancelarija/static/css/main.60b8a395.css.map",
+    "main.85b1c553.js.map": "//valuh-marko.github.io/advokatska-kancelarija/static/js/main.85b1c553.js.map"
   },
   "entrypoints": [
-    "static/css/main.958b9ceb.css",
-    "static/js/main.f8db0832.js"
+    "static/css/main.60b8a395.css",
+    "static/js/main.85b1c553.js"
   ]
 }
