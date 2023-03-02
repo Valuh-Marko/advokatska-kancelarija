@@ -46,6 +46,17 @@
   color: $copper;
   max-width: 7.5rem;
   height: fit-content;
+  transform: translateY(-50%);
+}
+
+.c-banner__text-holder {
+  transform: translateY(50%);
+  margin-top: 1.25rem;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
 .c-heading {
@@ -60,6 +71,24 @@
 .c-subheading {
   font-family: $raleway;
   font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+
+  &::before, &::after {
+    content: '';
+    display: block;
+    width: 5.625rem;
+    height: 2.125rem;
+    background-image: url('../../assets/images/divider.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &::after {
+    transform: rotate(180deg);
+  }
 }
 
 .c-divider {

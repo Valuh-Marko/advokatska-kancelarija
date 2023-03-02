@@ -43,7 +43,9 @@
 
     .c-work-card__text {
       max-height: 30rem;
-      -webkit-line-clamp: initial;
+      -webkit-line-clamp: 100;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
     }
   }
 }
