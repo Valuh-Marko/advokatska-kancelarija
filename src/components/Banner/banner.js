@@ -1,7 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useContext, useEffect, useState } from "react";
 import GeneralContext from "../../context/GeneralContext";
-import { Divider } from "../Decoratives/divider";
 import { Logo } from "../Icons/Logo/logo";
 import "./banner.scss";
 
@@ -16,6 +15,7 @@ export const Banner = () => {
     const setInvisibleInterval = setInterval(() => {
       setVisible(false);
     }, 4000);
+
     setTimeout(() => {
       const setVisibleInterval = setInterval(() => {
         setVisible(true);
