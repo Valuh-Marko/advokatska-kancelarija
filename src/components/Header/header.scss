@@ -20,6 +20,7 @@
 }
 
 .c-logo-wrapper {
+  color: $alabaster;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +32,7 @@
   font-weight: 700;
   font-family: $playfairDisplay;
   line-height: 2rem;
-  margin-top: -5px;
+  margin-top: -2px;
 }
 
 .c-icon {

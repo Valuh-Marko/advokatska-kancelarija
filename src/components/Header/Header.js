@@ -27,10 +27,10 @@ export const Header = () => {
   return (
     <>
       <header ref={header} className="c-header">
-        <div className="c-logo-wrapper">
+        <a href="#" className="c-logo-wrapper">
           <Logo customClass="c-icon c-icon--logo" />
-          <h3 className="c-logo">DND</h3>
-        </div>
+          <h3 className="c-logo">NMB</h3>
+        </a>
         <nav className="c-header-nav-wrapper">
           <ul className="c-header-nav">
             <a href="#" className="c-header__link">

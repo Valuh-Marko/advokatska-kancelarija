@@ -1,16 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 import "./work-card.scss";
 
 export const WorkCard = ({ title, img, desc }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
-      <div className="c-work-card">
+      <motion.div
+        layout
+        className={"c-work-card " + (isOpen && "c-work-card--open")}
+        onClick={() => setIsOpen(!isOpen)}
+        onMouseLeave={() => setIsOpen(false)}
+      >
         <img src={img} alt="bgImage" className="c-work-card__bg" />
-        <div className="c-work-card__info">
-          <h3 className="c-work-card__title">{title}</h3>
+        <motion.div className="c-work-card__info">
+          <motion.h3 layout="position" className="c-work-card__title">
+            {title}
+          </motion.h3>
           <p className="c-work-card__text">{desc}</p>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </>
   );
 };

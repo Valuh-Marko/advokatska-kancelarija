@@ -43,8 +43,16 @@
 }
 
 .c-our-work__content-holder {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: auto;
+  grid-template-columns: repeat(3, minmax(20.3125rem, 20.3125rem));
+  grid-auto-rows: minmax(20.3125rem, 20.3125rem);
+  justify-content: center;
+  align-items: center;
   gap: 1.25rem;
+
+  &:has(.c-work-card:hover) .c-work-card:not(.c-work-card:hover) {
+    opacity: .35;
+  }
 }

@@ -72,62 +72,52 @@ export const GeneralProvider = ({ children }) => {
   const fieldsOfWork = [
     {
       type: "Ugovorno pravo",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
+      desc: "Konsultacije, prouačavanje i izrada svih vrsta ugovora: ugovor o kupoprodaji nepokretnosti  (stana, kuće, pracele), ugovor o kupoprodaji pokretnih stvari, ugovor o doživotnom izdržavanju, ugovor o zakupu, ugovor o poklonu, ugovor o zajmu itd, sačinjavanje svih vrsta izjava i specijalnih punomoći, postupak pred javnim beležnikom ",
       img: "https://images.unsplash.com/photo-1635859890085-ec8cb5466806?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
     {
       type: "Naknada štete",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
+      desc: "Zastupanje u svim postupcima naknade materijalne i nematerijalne štete prilkom saobraćajne nezgode, povrede nastale na javnoj površini, povrede nastale od strane životinja, povrede časti i ugleda, povreda na radu, zbog neispunjenja ugovornih obaveza, zbog izgubljene dobiti, neisplaćene zarade, umanjenje imovine, zastupanje pred sudom i pred osiguravajućim društvima.",
       img: "https://images.unsplash.com/photo-1675093022653-59233299f8ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
     },
     {
       type: "Radno Pravo",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
+      desc: "Konsultacije, proučavanje i analiza spornih radnopravnih situacija, izrada opštih i pojedinačnih radnopravnih akata, i zastupanje u sudskim postupcima. Ostvarivanje prava zaposlenih u slučaju nezakonitog prestanka radnog odnosa, naplata potraživanja po osnovu rada, naknada štete prouzrokovane u toku rada.",
       img: "https://images.unsplash.com/photo-1573496130103-a442a3754d0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
     },
     {
-      type: "Opšta parnica",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
-      img: "https://images.unsplash.com/photo-1596574027151-2ce81d85af3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
-    },
-    {
-      type: "Porodično i nasledno pravo",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
-      img: "https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    },
-    {
-      type: "Vanparnica",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
-      img: "https://images.unsplash.com/photo-1562564055-71e051d33c19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    },
-    {
       type: "Privredno pravo",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
+      desc: "Osnivanje i registracija preduzetnika i pravnih lica, promena pravne forme privrednog društva i rešavanje statusnih pitanja, izrada opštih i posebnih pravnih akata, postupak registracije i zaštite patenta, zastupanje u privrednim sporovima, privrednim prestupima i stečajnim postupcima i likvidaciji.",
       img: "https://images.unsplash.com/photo-1618044733300-9472054094ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
     },
     {
       type: "Stvarno i građansko pravo",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
+      desc: `Zastupamo klijenate u parničnim, vanparničnim i drugim postupcima gde prilikom konsultacija dajemo procenu mogućnosti uspeha u postupku.
+      Konsultacije i zastupanje u predmetima iz porodičnog prava u postupcima razvoda braka, poveravanje maloletne dece roditeljima, alimentacija, podela zajedničke imovine itd, kao i u postupcima iz naslednog prava i to sastavljanje zaveštanja, ugovora o doživotnom izdržavanju, pokretanje ostavinskog postupka, zastupanje u ostavinskom postupku.
+      Konsultacije I zastupanje u postupcima proglašenja nestalog lica za umrlo, , lišenje poslovne sposobnosti.
+      Savetovanje i zastupanje u oblasti gradnje i dobijanja neophodnih dozvola pred nadležnim organima
+      Pravna analiza u oblasti nepokretnosti, zastupanje u vezi sa uknjižbom nepokretnosti, zastupanje i savetovanje u imovinsko - pravnim sporovima, u postupku eksproprijacije, deoba zajedničke imovine, uređenje međa. 
+      `,
       img: "https://images.unsplash.com/photo-1621778455241-f35f8cf63d64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1265&q=80",
     },
     {
       type: "Krivično I prekršajno pravo",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
+      desc: "Odbrana punoletnih i maloletnih okrivljenih u krivičnom postupku i prekršajnom postupku, zastupanje oštećenih punoletnih i maloletnih lica u krivičnom postupku",
       img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
     {
       type: "Upravno pravo",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
+      desc: "Pružamo pravnu pomoć zastupanja i savetovanja u pravnim stvarima u postupcima pred svim organima uprave kao što su Poreska uprava, Uprave carina i drugih republičkih, pokrajinskih ili lokalnih organa uprave.",
       img: "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
     {
       type: "Postupak naplate potraživanja",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
+      desc: "Konsultacije i vođenje postupka prinudne naplate potraživanja na osnovu verodostojne i izvršne isprave pred javnim izvršiteljima",
       img: "https://images.unsplash.com/photo-1606933987885-1834b4d326bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
     {
       type: "Ostalo",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam magni placeat, ab exercitationem officia?",
+      desc: "Konsultacije, prouačavanje, izrada, vođenje postupka u svim ostalim pravnim stvarima?",
       img: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
   ];
