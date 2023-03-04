@@ -13,27 +13,46 @@
   transform-origin: 50% 50%;
   cursor: pointer;
 
+  @include breakpoint {
+    width: 23rem;
+    height: 23rem;
+  }
+
   &:nth-child(3n+1)
   {
     grid-column: 1/2;
+
+    @include breakpoint {
+      grid-column: 1/2;
+    }
   }
 
   &:nth-child(3n+2) {
     grid-column: 2/3;
+    
+    @include breakpoint {
+      grid-column: 1/2;
+    }
   }
 
   &:nth-child(3n+3) {
     grid-column: 3/4;
+
+    @include breakpoint {
+      grid-column: 1/2;
+    }
   }
 
   & > *:not(img) {
     position: relative;
   }
 
-  &:hover {
-    transform: scale(1.1);
-    z-index: 5;
-    box-shadow: 5px 5px 25px rgba(0,0,0,.42);
+  @media screen and (min-width: 768px) {
+    &:hover {
+      transform: scale(1.1);
+      z-index: 5;
+      box-shadow: 5px 5px 25px rgba(0,0,0,.42);
+    }
   }
 
   &.c-work-card--open {
@@ -46,6 +65,19 @@
       -webkit-line-clamp: 100;
       display: -webkit-box;
       -webkit-box-orient: vertical;
+    }
+
+    @include breakpoint {
+      width: 28rem;
+      height: 35rem;
+      box-shadow: 5px 5px 25px rgba(0,0,0,.42);
+
+      .c-work-card__text {
+        max-height: 30rem;
+        -webkit-line-clamp: 100;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+      }
     }
   }
 }

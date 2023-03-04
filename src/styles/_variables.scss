@@ -14,3 +14,9 @@ $gradientCream: linear-gradient(45deg, $alabaster, #D6D0C2);
 // Font Variables
 $playfairDisplay: 'Playfair Display', serif;
 $raleway: 'Raleway', sans-serif;
+
+@mixin breakpoint {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}

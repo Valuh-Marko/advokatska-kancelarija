@@ -6,6 +6,7 @@ import { Team } from "./components/Team/team";
 import { GeneralProvider } from "./context/GeneralContext";
 import { motion, useScroll, useTransform } from "framer-motion";
 import "./styles/styles.scss";
+import { Footer } from "./components/Footer/footer";
 
 function App() {
   let { scrollYProgress } = useScroll();
@@ -18,10 +19,8 @@ function App() {
         <About />
         <OurWork />
         <Team />
-        <motion.div className="c-bottom-bg"
-          style={{ y }}
-        >
-        </motion.div>
+        <Footer />
+        <motion.div className="c-bottom-bg" style={{ y }}></motion.div>
       </div>
     </GeneralProvider>
   );

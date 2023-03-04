@@ -23,6 +23,11 @@
     left: 0;
     transform: translateX(-50%) translateY(50%);
   }
+
+  @include breakpoint {
+    margin: 0;
+    padding: 5rem 2rem;
+  }
 }
 
 .c-out-work__heading {
@@ -32,6 +37,10 @@
   font-weight: 400;
   position: relative;
   z-index: 1;
+
+  @include breakpoint {
+    overflow-x: hidden;
+  }
 
   .ornament15 {
     position: absolute;
@@ -52,7 +61,12 @@
   align-items: center;
   gap: 1.25rem;
 
-  &:has(.c-work-card:hover) .c-work-card:not(.c-work-card:hover) {
-    opacity: .35;
+  &:has(.c-work-card.c-work-card--open) .c-work-card:not(.c-work-card.c-work-card--open) {
+    opacity: .25;
+  }
+
+  @include breakpoint {
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(23rem, 23rem);
   }
 }

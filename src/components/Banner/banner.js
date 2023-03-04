@@ -14,16 +14,23 @@ export const Banner = () => {
   useEffect(() => {
     const setInvisibleInterval = setInterval(() => {
       setVisible(false);
-    }, 4000);
+    }, 8000);
 
-    setTimeout(() => {
-      const setVisibleInterval = setInterval(() => {
-        setVisible(true);
-        setSaying(
-          latinSayings[Math.floor(Math.random() * latinSayings.length)]
-        );
-      }, 4000);
-    }, 1000);
+    const setVisibleInterval = setTimeout(
+      () =>
+        setInterval(() => {
+          setVisible(true);
+          setSaying(
+            latinSayings[Math.floor(Math.random() * latinSayings.length)]
+          );
+        }, 8000),
+      1000
+    );
+
+    return () => {
+      clearInterval(setInvisibleInterval);
+      clearInterval(setVisibleInterval);
+    };
   }, []);
 
   return (

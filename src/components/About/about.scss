@@ -5,6 +5,11 @@
   display: flex;
   align-items: center;
   color: $richBlackFogra39;
+
+  @include breakpoint {
+    overflow-x: hidden;
+    margin: 0;
+  }
 }
 
 .c-about-text__container {
@@ -26,6 +31,16 @@
 
   .c-divider {
     transform: translateX(50%);
+
+    @include breakpoint {
+      transform: translateX(25%);
+    }
+  }
+
+  @include breakpoint {
+    padding: 5rem 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -37,4 +52,8 @@
 
 .c-about-img {
   width: 25rem;
+
+  @include breakpoint {
+    display: none;
+  }
 }

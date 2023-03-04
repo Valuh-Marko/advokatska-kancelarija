@@ -9,18 +9,27 @@ export const GeneralProvider = ({ children }) => {
       logo: "",
       img: "https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=723&q=80",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate ipsum nisi autem veritatis nam quasi placeat dolor nobis eaque modi quod, est, a facilis, iure voluptate commodi unde alias facere minima saepe. Cupiditate ut officiis consequuntur, illum fuga veritatis.",
+      email: "nesto@nesto.com",
+      phone: "060 000 00 00",
+      social: "nekiLinkedIn",
     },
     {
       title: "Milan Nedic",
       logo: "",
       img: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate ipsum nisi autem veritatis nam quasi placeat dolor nobis eaque modi quod, est, a facilis, iure voluptate commodi unde alias facere minima saepe. Cupiditate ut officiis consequuntur, illum fuga veritatis.",
+      email: "nesto@nesto.com",
+      phone: "060 000 00 00",
+      social: "nekiLinkedIn",
     },
     {
       title: "Dijana Biro",
       logo: "",
       img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate ipsum nisi autem veritatis nam quasi placeat dolor nobis eaque modi quod, est, a facilis, iure voluptate commodi unde alias facere minima saepe. Cupiditate ut officiis consequuntur, illum fuga veritatis.",
+      email: "nesto@nesto.com",
+      phone: "060 000 00 00",
+      social: "nekiLinkedIn",
     },
   ];
   const latinSayings = [
