@@ -191,6 +191,10 @@
 .c-member__desc {
   max-width: 20rem;
   margin-left: auto;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
 
   @include breakpoint {
     max-width: 80%;

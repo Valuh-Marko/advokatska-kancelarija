@@ -16,7 +16,7 @@ export const Header = () => {
     const scrollListener = window.addEventListener("scroll", (e) => {
       let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-      if (window.scrollY > 768) {
+      if (window.scrollY > window.innerHeight - 50) {
         if (scrollTop > lastScrollTop) {
           header.current.className = "c-header c-header--short hide";
           setOpen(false);

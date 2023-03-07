@@ -8,7 +8,13 @@ export const GeneralProvider = ({ children }) => {
       title: "Davor Maric",
       logo: "",
       img: "https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=723&q=80",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate ipsum nisi autem veritatis nam quasi placeat dolor nobis eaque modi quod, est, a facilis, iure voluptate commodi unde alias facere minima saepe. Cupiditate ut officiis consequuntur, illum fuga veritatis.",
+      desc: `Advokat Davor Marić je rođen 1989. godine u Sarajevu. Nakon završene Gimnazije „Jovan Jovanović Zmaj“ u Novom Sadu upisuje Pravni Fakultet Univerziteta u Novom Sadu 2008. Godine – smer opšti, na kojem i diplomira 08.02.2013. godine.
+      Pripravničku vežbu je obavljao u Višem sudu u Novom Sadu, zatim u advokatskoj kancelariji Nebojša Karanović i advokatskoj kancelariji Zoran Trbuk.
+      Zvanje Master pravnika stiče 30.10.2014. godine nakon što je odbranio završni master rad na temu „Pozitivne obaveze država u pogledu zaštite prava na život“ na Pravnom fakultetu Univerziteta u  Novom Sadu.
+      Pravosudni ispit je položio 29.06.2016. godine, a advokatski ispit je položio 25.11.2016. godine.
+      Od 14.02.2017. godine je upisan u imenik advokata i član je Advokatske komore Vojvodine.
+      Poseduje sertifikate za odbranu maloletnih učinilaca krivičnih dela i zastupanje maloletnih oštećenih lica, sertifikat za zastupanje klijenata u medijaciji, sertifikat o završenoj obuci pravna zaštita od nasilja u porodici.
+      Pored maternjeg srpskog jezika govori još i engleski jezik, a služi se ruskim jezikom.`,
       email: "nesto@nesto.com",
       phone: "060 000 00 00",
       social: "nekiLinkedIn",
@@ -17,7 +23,9 @@ export const GeneralProvider = ({ children }) => {
       title: "Milan Nedic",
       logo: "",
       img: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate ipsum nisi autem veritatis nam quasi placeat dolor nobis eaque modi quod, est, a facilis, iure voluptate commodi unde alias facere minima saepe. Cupiditate ut officiis consequuntur, illum fuga veritatis.",
+      desc: `Милан Недић је рођен у Новом Саду 1988. године. Након завршене средње школе, 2007. године уписује  Правни факултет Универзитета у Новом Саду – Смер унутрашњих послова и на истом дипломира 2011. године.  Приправничку вежбу започиње 2012. године у Основном суду у Новом Саду и у том периоду је задужен за израду судских одлука у истражној, кривичној и парничној реферади. Након положеног правосудног испита 2014. године, радио је на радном месту секретара Предшколске установе „Љуба Станковић“ у Беочину, после чега се 2015. године уписује у Именик адвоката Адвокатске коморе Војводине.
+
+      Поседује сертификат за одбрану малолетних учиониоца кривичних дела и заступање малолетних лица као оштећених кривичним делом. `,
       email: "nesto@nesto.com",
       phone: "060 000 00 00",
       social: "nekiLinkedIn",
@@ -26,7 +34,8 @@ export const GeneralProvider = ({ children }) => {
       title: "Dijana Biro",
       logo: "",
       img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate ipsum nisi autem veritatis nam quasi placeat dolor nobis eaque modi quod, est, a facilis, iure voluptate commodi unde alias facere minima saepe. Cupiditate ut officiis consequuntur, illum fuga veritatis.",
+      desc: `Advokat Dijana Biro rođena je 1991. godine u Kikindi. Nakon završetka gimnazije „Dušan Vasiljev“ u Kikindi, upisuje Pravni fakultet za privredu i pravosuđe u Novom Sadu, na kom je i diplomirala 2014. godine. Tokom studiranja učestvovala je na takmičenju u besedništvu, i uspešno završila kurseve sa temama „Imovinski odnosi bračnih i vanbračnih partnera“ i „Metodologija izrade presude u parničnom postupku“. Po završetku studija, pripravničku vežbu obavlja u Višem sudu u Novom Sadu, radeći u svojstvu sudijskog pripravnika na prvostepenom krivičnom i  prvostepenom parničnom odeljenju, drugostepenom parničnom odeljenju, kao i na odeljenju za maloletnike. Pravosudni ispit ispit polaže 2018. godine, a advokatski ispit 2019. godine, koje godine i osniva  svoju advokatsku kancelariju. Nataša Igić
+      Poseduje sertifikat za odbranu maloletnih učinilaca krivičnih dela i zastupanje maloletnih lica oštećenih krivičnim delima.`,
       email: "nesto@nesto.com",
       phone: "060 000 00 00",
       social: "nekiLinkedIn",

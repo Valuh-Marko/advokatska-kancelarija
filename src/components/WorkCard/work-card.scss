@@ -11,11 +11,12 @@
   background-color: $richBlackFogra39;
   transition: all .2s ease-in;
   transform-origin: 50% 50%;
+  justify-self: center;
   cursor: pointer;
 
   @include breakpoint {
-    width: 23rem;
-    height: 23rem;
+    width: 25rem;
+    height: 25rem;
   }
 
   &:nth-child(3n+1)
@@ -68,7 +69,7 @@
     }
 
     @include breakpoint {
-      width: 28rem;
+      width: 29.5rem;
       height: 35rem;
       box-shadow: 5px 5px 25px rgba(0,0,0,.42);
 

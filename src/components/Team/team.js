@@ -1,14 +1,20 @@
 import React, { useContext, useState } from "react";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import GeneralContext from "../../context/GeneralContext";
 import { DividerSide } from "../Decoratives/divider-side";
 import { heightMotion } from "../../animations/heightSwitch.animation";
 import ornament35 from "../../assets/images/ornament35.svg";
 import "./team.scss";
+import { Modal } from "../Modal/modal";
 
 export const Team = () => {
   const { ourTeam } = useContext(GeneralContext);
   const [hoverState, setHoverState] = useState(0);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalData, setModalData] = useState();
+
+  const openModal = () => setModalOpen(true);
+  const closeModal = () => setModalOpen(false);
 
   return (
     <>
@@ -38,8 +44,12 @@ export const Team = () => {
                 initial="initial"
                 whileHover="hover"
                 animate="initial"
-                onHoverStart={() => setHoverState(index)}
                 key={`${index}name`}
+                onHoverStart={() => setHoverState(index)}
+                onClick={() => {
+                  modalOpen ? closeModal() : openModal();
+                  setModalData(index)
+                }}
               >
                 <h5 className="c-member__title">{member.title}</h5>
                 <div className="c-member__logo"></div>
@@ -49,6 +59,9 @@ export const Team = () => {
               </motion.div>
             );
           })}
+          <AnimatePresence>
+            {modalOpen && <Modal modalOpen={modalOpen} handleClose={closeModal} data={ourTeam[modalData]} />}
+          </AnimatePresence>
           <img src={ornament35} alt="ornament" className="c-ornament36" />
         </div>
       </div>
