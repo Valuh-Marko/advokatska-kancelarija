@@ -40,25 +40,3 @@ p {
   opacity: .25;
   background-image: linear-gradient(180deg, #070B0D 40%, rgba(0, 0, 0, 0) 55.11%), url('../assets/images/bottomBg.jpg')
 }
-
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  background: rgba(0, 0, 0, 0.75);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 999;
-  backdrop-filter: blur(2px);
-}
-
-.c-modal {
-  width: clamp(50%, 64rem, 90%);
-  margin: auto;
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-}
