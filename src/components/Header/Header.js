@@ -55,24 +55,42 @@ export const Header = () => {
             <a href="#services" className="c-header__link">
               Services
             </a>
+            <a href="#our-team" className="c-header__link">
+              Meet Our Team
+            </a>
             <a href="#footer" className="c-header__link">
               Contact
             </a>
           </ul>
           <ul className="c-header-socials">
-            <a href="#" className="c-header-socials__link">
+            <motion.a
+              href="#"
+              className="c-header-socials__link"
+              whileHover={{ scale: 2, transition: { duration: 0.4 } }}
+            >
               <Linkedin customClass="c-icon" />
-            </a>
-            <a href="#" className="c-header-socials__link">
+            </motion.a>
+            <motion.a
+              href="#"
+              className="c-header-socials__link"
+              whileHover={{ scale: 2, transition: { duration: 0.4 } }}
+            >
               <Facebook customClass="c-icon" />
-            </a>
-            <a href="#" className="c-header-socials__link">
+            </motion.a>
+            <motion.a
+              href="#"
+              className="c-header-socials__link"
+              whileHover={{ scale: 2, transition: { duration: 0.4 } }}
+            >
               <Twitter customClass="c-icon" />
-            </a>
+            </motion.a>
           </ul>
         </nav>
         <nav className="c-header-nav-wrapper c-header-nav-wrapper--mobile">
-          <div className={`c-hamburger ${open && 'open'}`} onClick={() => setOpen(!open)}>
+          <div
+            className={`c-hamburger ${open && "open"}`}
+            onClick={() => setOpen(!open)}
+          >
             <div className="c-line-holder">
               <div className="c-line"></div>
               <div className="c-line"></div>
@@ -81,7 +99,8 @@ export const Header = () => {
           </div>
           <AnimatePresence>
             {open && (
-              <motion.ul className="c-header-nav"
+              <motion.ul
+                className="c-header-nav"
                 variants={slideIn}
                 initial="initial"
                 animate="open"
@@ -110,6 +129,14 @@ export const Header = () => {
                   className="c-header__link"
                 >
                   Services
+                </motion.a>
+                <motion.a
+                  variants={slideInFade}
+                  onClick={() => setOpen(!open)}
+                  href="#our-team"
+                  className="c-header__link"
+                >
+                  Meet Our Team
                 </motion.a>
                 <motion.a
                   variants={slideInFade}

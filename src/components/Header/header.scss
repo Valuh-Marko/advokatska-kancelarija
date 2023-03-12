@@ -103,7 +103,7 @@
     border-radius: .625rem;
     height:.4375rem;
     margin: .4375rem 0;
-    transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    transition: .4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 
     &:first-of-type {
       width: 50%;
@@ -180,15 +180,42 @@
 }
 
 .c-header__link {
+  position: relative;
   color: $alabaster;
   font-size: 16px;
   font-weight: 400;
   font-family: $raleway;
   cursor: pointer;
+  transition: color .4s ease-in-out;
+
+  &::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: $copper;
+    position: absolute;
+    bottom: -0.625rem;
+    transition: width .4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    transform-origin: left;
+  }
+
+  &:hover {
+    color: $copper;
+
+    &::after {
+      width: 100%;
+    }
+  }
 
   @include breakpoint {
     margin: 1.25rem 0;
     padding-right: 2.5rem;
+
+    &::after {
+      content: none;
+      display: none;
+    }
   }
 }
 

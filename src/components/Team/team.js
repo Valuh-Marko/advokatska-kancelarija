@@ -18,7 +18,7 @@ export const Team = () => {
 
   return (
     <>
-      <div className="c-team">
+      <div className="c-team" id="our-team">
         <h2 className="c-team__title">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
           voluptates ad?
@@ -28,8 +28,9 @@ export const Team = () => {
           {ourTeam.map((member, index) => {
             return (
               <div
-                className={`c-member__image-wrapper ${hoverState === index ? "active" : ""
-                  }`}
+                className={`c-member__image-wrapper ${
+                  hoverState === index ? "active" : ""
+                }`}
                 key={`${index}img`}
               >
                 <img className="c-member__image" src={member.img} alt="img" />
@@ -39,8 +40,9 @@ export const Team = () => {
           {ourTeam.map((member, index) => {
             return (
               <motion.div
-                className={`c-member__name ${hoverState === index ? "active" : ""
-                  } `}
+                className={`c-member__name ${
+                  hoverState === index ? "active" : ""
+                } `}
                 initial="initial"
                 whileHover="hover"
                 animate="initial"
@@ -48,7 +50,7 @@ export const Team = () => {
                 onHoverStart={() => setHoverState(index)}
                 onClick={() => {
                   modalOpen ? closeModal() : openModal();
-                  setModalData(index)
+                  setModalData(index);
                 }}
               >
                 <h5 className="c-member__title">{member.title}</h5>
@@ -60,7 +62,13 @@ export const Team = () => {
             );
           })}
           <AnimatePresence>
-            {modalOpen && <Modal modalOpen={modalOpen} handleClose={closeModal} data={ourTeam[modalData]} />}
+            {modalOpen && (
+              <Modal
+                modalOpen={modalOpen}
+                handleClose={closeModal}
+                data={ourTeam[modalData]}
+              />
+            )}
           </AnimatePresence>
           <img src={ornament35} alt="ornament" className="c-ornament36" />
         </div>
