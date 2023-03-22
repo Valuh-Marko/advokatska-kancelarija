@@ -19,18 +19,14 @@ export const Team = () => {
   return (
     <>
       <div className="c-team" id="our-team">
-        <h2 className="c-team__title">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
-          voluptates ad?
-        </h2>
+        <h2 className="c-team__title">Upoznajte naš iskusni pravni tim</h2>
         <DividerSide />
         <div className="c-team__holder">
           {ourTeam.map((member, index) => {
             return (
               <div
-                className={`c-member__image-wrapper ${
-                  hoverState === index ? "active" : ""
-                }`}
+                className={`c-member__image-wrapper ${hoverState === index ? "active" : ""
+                  }`}
                 key={`${index}img`}
               >
                 <img className="c-member__image" src={member.img} alt="img" />
@@ -40,9 +36,8 @@ export const Team = () => {
           {ourTeam.map((member, index) => {
             return (
               <motion.div
-                className={`c-member__name ${
-                  hoverState === index ? "active" : ""
-                } `}
+                className={`c-member__name ${hoverState === index ? "active" : ""
+                  } `}
                 initial="initial"
                 whileHover="hover"
                 animate="initial"
@@ -53,8 +48,10 @@ export const Team = () => {
                   setModalData(index);
                 }}
               >
-                <h5 className="c-member__title">{member.title}</h5>
-                <div className="c-member__logo"></div>
+                <div className="c-member-text-wrapper">
+                  <h5 className="c-member__full-name">{member.name}</h5>
+                  <img src={member.logo} className="c-member__logo"></img>
+                </div>
                 <motion.p className="c-member__desc" variants={heightMotion}>
                   {member.desc}
                 </motion.p>

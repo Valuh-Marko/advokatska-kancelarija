@@ -1,12 +1,16 @@
 import React from "react";
+import davorLogo from "../assets/images/DavorMaricLogo.png";
+import milanLogo from "../assets/images/MilanNedicLogo.png";
+import dijanaLogo from "../assets/images/DijanaBiroLogo.png";
 
 const GeneralContext = React.createContext();
 
 export const GeneralProvider = ({ children }) => {
   const ourTeam = [
     {
-      title: "Davor Maric",
-      logo: "",
+      title: "Advokat",
+      name: "Davor Marić",
+      logo: davorLogo,
       img: "https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=723&q=80",
       desc: `Advokat Davor Marić je rođen 1989. godine u Sarajevu. Nakon završene Gimnazije „Jovan Jovanović Zmaj“ u Novom Sadu upisuje Pravni Fakultet Univerziteta u Novom Sadu 2008. Godine – smer opšti, na kojem i diplomira 08.02.2013. godine.
       Pripravničku vežbu je obavljao u Višem sudu u Novom Sadu, zatim u advokatskoj kancelariji Nebojša Karanović i advokatskoj kancelariji Zoran Trbuk.
@@ -20,19 +24,20 @@ export const GeneralProvider = ({ children }) => {
       social: "nekiLinkedIn",
     },
     {
-      title: "Milan Nedic",
-      logo: "",
+      title: "Advokat",
+      name: "Milan Nedić",
+      logo: milanLogo,
       img: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      desc: `Милан Недић је рођен у Новом Саду 1988. године. Након завршене средње школе, 2007. године уписује  Правни факултет Универзитета у Новом Саду – Смер унутрашњих послова и на истом дипломира 2011. године.  Приправничку вежбу започиње 2012. године у Основном суду у Новом Саду и у том периоду је задужен за израду судских одлука у истражној, кривичној и парничној реферади. Након положеног правосудног испита 2014. године, радио је на радном месту секретара Предшколске установе „Љуба Станковић“ у Беочину, после чега се 2015. године уписује у Именик адвоката Адвокатске коморе Војводине.
-
-      Поседује сертификат за одбрану малолетних учиониоца кривичних дела и заступање малолетних лица као оштећених кривичним делом. `,
+      desc: `Milan Nedić je rođen u Novom Sadu 1988. godine. Nakon završene srednje škole, 2007. godine upisuje Pravni fakultet Univerziteta u Novom Sadu, usmerenje unutrašnji poslovi, čiju diplomu dobija 2011. godine. Tokom izvođenja pripravničke vezbe u Osnovnom sudu u Novom Sadu, bio je zadužen za izradu sudskih odluka u istražnoj, krivičnoj i parničnoj referadi. Polaganjem pravosudnog ispita 2014. godine, počinje sa radom na mestu sekretara Predškolske ustanove "Ljuba Stanković" u Beočinu. U Imeniku advokata Advokatske komore Vojvodine se nalazi od 2015. godine.
+      Poseduje sertifikat za odbranu maloletnih učinioca krivičnih dela i zastupanje maloletnih lica kao oštećenih krivičnim delom.`,
       email: "nesto@nesto.com",
       phone: "060 000 00 00",
       social: "nekiLinkedIn",
     },
     {
-      title: "Dijana Biro",
-      logo: "",
+      title: "Advokat",
+      name: "Dijana Biro",
+      logo: dijanaLogo,
       img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
       desc: `Advokat Dijana Biro rođena je 1991. godine u Kikindi. Nakon završetka gimnazije „Dušan Vasiljev“ u Kikindi, upisuje Pravni fakultet za privredu i pravosuđe u Novom Sadu, na kom je i diplomirala 2014. godine. Tokom studiranja učestvovala je na takmičenju u besedništvu, i uspešno završila kurseve sa temama „Imovinski odnosi bračnih i vanbračnih partnera“ i „Metodologija izrade presude u parničnom postupku“. Po završetku studija, pripravničku vežbu obavlja u Višem sudu u Novom Sadu, radeći u svojstvu sudijskog pripravnika na prvostepenom krivičnom i  prvostepenom parničnom odeljenju, drugostepenom parničnom odeljenju, kao i na odeljenju za maloletnike. Pravosudni ispit ispit polaže 2018. godine, a advokatski ispit 2019. godine, koje godine i osniva  svoju advokatsku kancelariju. Dijana Biro poseduje sertifikat za odbranu maloletnih učinilaca krivičnih dela i zastupanje maloletnih lica oštećenih krivičnim delima.`,
       email: "nesto@nesto.com",
@@ -90,22 +95,22 @@ export const GeneralProvider = ({ children }) => {
     {
       type: "Ugovorno pravo",
       desc: "Konsultacije, prouačavanje i izrada svih vrsta ugovora: ugovor o kupoprodaji nepokretnosti  (stana, kuće, pracele), ugovor o kupoprodaji pokretnih stvari, ugovor o doživotnom izdržavanju, ugovor o zakupu, ugovor o poklonu, ugovor o zajmu itd, sačinjavanje svih vrsta izjava i specijalnih punomoći, postupak pred javnim beležnikom ",
-      img: "https://images.unsplash.com/photo-1635859890085-ec8cb5466806?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      img: "https://i.imgur.com/6A9x1Yl.jpg",
     },
     {
       type: "Naknada štete",
       desc: "Zastupanje u svim postupcima naknade materijalne i nematerijalne štete prilkom saobraćajne nezgode, povrede nastale na javnoj površini, povrede nastale od strane životinja, povrede časti i ugleda, povreda na radu, zbog neispunjenja ugovornih obaveza, zbog izgubljene dobiti, neisplaćene zarade, umanjenje imovine, zastupanje pred sudom i pred osiguravajućim društvima.",
-      img: "https://images.unsplash.com/photo-1675093022653-59233299f8ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
+      img: "https://imgur.com/kOafedE.jpg",
     },
     {
       type: "Radno Pravo",
       desc: "Konsultacije, proučavanje i analiza spornih radnopravnih situacija, izrada opštih i pojedinačnih radnopravnih akata, i zastupanje u sudskim postupcima. Ostvarivanje prava zaposlenih u slučaju nezakonitog prestanka radnog odnosa, naplata potraživanja po osnovu rada, naknada štete prouzrokovane u toku rada.",
-      img: "https://images.unsplash.com/photo-1573496130103-a442a3754d0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+      img: "https://imgur.com/9EL2d3N.jpg",
     },
     {
       type: "Privredno pravo",
       desc: "Osnivanje i registracija preduzetnika i pravnih lica, promena pravne forme privrednog društva i rešavanje statusnih pitanja, izrada opštih i posebnih pravnih akata, postupak registracije i zaštite patenta, zastupanje u privrednim sporovima, privrednim prestupima i stečajnim postupcima i likvidaciji.",
-      img: "https://images.unsplash.com/photo-1618044733300-9472054094ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      img: "https://imgur.com/8G5LLYL.jpg",
     },
     {
       type: "Stvarno i građansko pravo",
@@ -115,27 +120,27 @@ export const GeneralProvider = ({ children }) => {
       Savetovanje i zastupanje u oblasti gradnje i dobijanja neophodnih dozvola pred nadležnim organima
       Pravna analiza u oblasti nepokretnosti, zastupanje u vezi sa uknjižbom nepokretnosti, zastupanje i savetovanje u imovinsko - pravnim sporovima, u postupku eksproprijacije, deoba zajedničke imovine, uređenje međa. 
       `,
-      img: "https://images.unsplash.com/photo-1621778455241-f35f8cf63d64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1265&q=80",
+      img: "https://imgur.com/V1hBNhE.jpg",
     },
     {
       type: "Krivično I prekršajno pravo",
       desc: "Odbrana punoletnih i maloletnih okrivljenih u krivičnom postupku i prekršajnom postupku, zastupanje oštećenih punoletnih i maloletnih lica u krivičnom postupku",
-      img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      img: "https://imgur.com/ahJeV2l.jpg",
     },
     {
       type: "Upravno pravo",
       desc: "Pružamo pravnu pomoć zastupanja i savetovanja u pravnim stvarima u postupcima pred svim organima uprave kao što su Poreska uprava, Uprave carina i drugih republičkih, pokrajinskih ili lokalnih organa uprave.",
-      img: "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      img: "https://imgur.com/kBCnnes.jpg",
     },
     {
       type: "Postupak naplate potraživanja",
       desc: "Konsultacije i vođenje postupka prinudne naplate potraživanja na osnovu verodostojne i izvršne isprave pred javnim izvršiteljima",
-      img: "https://images.unsplash.com/photo-1606933987885-1834b4d326bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      img: "https://imgur.com/fmQ5XhE.jpg",
     },
     {
       type: "Ostalo",
       desc: "Konsultacije, prouačavanje, izrada, vođenje postupka u svim ostalim pravnim stvarima?",
-      img: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      img: "https://imgur.com/ZDxBPm8.jpg",
     },
   ];
 

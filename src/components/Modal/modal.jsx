@@ -17,7 +17,8 @@ export const Modal = ({ handleClose, data }) => {
         <img src={close} alt="close-img" className='c-close-icon' onClick={handleClose} />
         <img src={data.img} alt="image" className="c-modal-img" />
         <div className="c-modal-text-container">
-          <h2 className="c-modal-title">{data.title}</h2>
+          <h2 className="c-modal-title">{data.name}</h2>
+          <h5 className='c-modal-subtitle'>{data.title}</h5>
           <p className="c-modal-desc">{data.desc}</p>
         </div>
         <img src={ornament16} alt="ornament" className="c-ornament-bottom" />

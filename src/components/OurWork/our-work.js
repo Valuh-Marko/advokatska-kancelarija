@@ -13,8 +13,7 @@ export const OurWork = () => {
     <>
       <div className="c-our-work" id="services">
         <h2 className="c-out-work__heading">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-          harum?
+          Nudimo širok spektar pravnih usluga za ispunjenje Vaših potreba
           <img src={ornament15} alt="ornament" className="ornament15" />
         </h2>
         <DividerCenter />

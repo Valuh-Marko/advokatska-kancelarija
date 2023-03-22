@@ -68,6 +68,25 @@
   color: $alabaster;
 }
 
+.c-modal-subtitle {
+  font-size: 1.2rem;
+  color: $alabaster;
+  display: flex;
+  align-items: center;
+
+  &::after {
+    display: inline-block;
+    content: "";
+    background-image: url('../../assets/images/divider.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 6.25rem;
+    height: 1.25rem;
+    margin-left: -2.5rem;
+    transform: rotate(180deg);
+  }
+}
+
 .c-modal-desc {
   color: $alabaster;
   overflow: auto;

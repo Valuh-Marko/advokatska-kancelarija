@@ -47,19 +47,19 @@ export const Header = () => {
         <nav className="c-header-nav-wrapper c-header-nav-wrapper--desktop">
           <ul className="c-header-nav">
             <a href="#" className="c-header__link">
-              Home
+              Početak
             </a>
             <a href="#about" className="c-header__link">
-              About
+              O Nama
             </a>
             <a href="#services" className="c-header__link">
-              Services
+              Naše Usluge
             </a>
             <a href="#our-team" className="c-header__link">
-              Meet Our Team
+              Upoznaj naš tim
             </a>
             <a href="#footer" className="c-header__link">
-              Contact
+              Kontakt
             </a>
           </ul>
           <ul className="c-header-socials">

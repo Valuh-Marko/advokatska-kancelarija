@@ -9,17 +9,21 @@ export const About = () => {
       <div className="c-about" id="about">
         <div className="c-about-text__container">
           <h2 className="c-about__heading">
-            Lorem Ipsum Dolor Sit Amet Consectetur Molestie.
+            Stavljamo Vaše pravne <br /> potrebe na prvo mesto
           </h2>
           <DividerSide />
           <p className="c-about__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cumque
-            tenetur cum at! Quos fuga, asperiores at exercitationem ad ipsa ex
-            totam nostrum ipsam. Saepe fuga culpa distinctio excepturi
-            perferendis velit dignissimos reiciendis adipisci laboriosam dolores
-            provident, aspernatur, animi laborum est impedit! Ex, temporibus
-            nisi. A dolorum repudiandae reiciendis delectus aliquid quam hic
-            placeat molestiae?
+            Mi smo posvećeni tim iskusnih advokata koji su strastveni u
+            pomaganju našim klijentima da ostvare svoje pravne ciljeve. Naša
+            misija je da pružimo personalizovanu i efikasnu pravnu
+            zastupljenost. Fokusirani na komunikaciju, poverenje i integritet,
+            neprestano radimo kako bismo se zalagali za naše klijente i
+            zaštitili njihova prava i interese. Bez obzira da li se suočavate sa
+            složenim pravnim pitanjem ili jednostavno trebate vođstvo i savet,
+            mi smo tu da pomognemo. Sa našim obimnim znanjem i iskustvom u
+            različitim oblastima prava, posvećeni smo pružanju najvišeg
+            kvaliteta pravnih usluga i postizanju uspešnih ishoda za naše
+            klijente.
           </p>
         </div>
         <img className="c-about-img" src={aboutImg} alt="about" />
