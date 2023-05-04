@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/advokatska-kancelarija/static/css/main.68a0da0c.css",
-    "main.js": "/advokatska-kancelarija/static/js/main.e042f3e8.js",
-    "static/media/bottomBg.jpg": "/advokatska-kancelarija/static/media/bottomBg.d146da2a3ba25b667e21.jpg",
-    "static/media/bannerBg.jpg": "/advokatska-kancelarija/static/media/bannerBg.c0c369964f582b209e38.jpg",
-    "static/media/aboutImg.jpg": "/advokatska-kancelarija/static/media/aboutImg.2f691797f02d3b735aa5.jpg",
-    "static/media/buttonBg.png": "/advokatska-kancelarija/static/media/buttonBg.3e7e2be398ad5af64a1b.png",
-    "static/media/ornament15.svg": "/advokatska-kancelarija/static/media/ornament15.7fa231cfd627b7fa3f84c49021d0bf4d.svg",
+    "main.css": "/advokatska-kancelarija/static/css/main.ca92f0ae.css",
+    "main.js": "/advokatska-kancelarija/static/js/main.fcf7a8b4.js",
+    "static/media/milan-nedic.webp": "/advokatska-kancelarija/static/media/milan-nedic.b5cbdd3cb26c1af6cf13.webp",
+    "static/media/bottomBg.webp": "/advokatska-kancelarija/static/media/bottomBg.cdff082798d5a5a6bdd9.webp",
+    "static/media/bannerBg.webp": "/advokatska-kancelarija/static/media/bannerBg.75382e6a8c4a6f1bd028.webp",
+    "static/media/davor-maric.webp": "/advokatska-kancelarija/static/media/davor-maric.789d9ed66f62218cfd09.webp",
+    "static/media/dijana-biro.webp": "/advokatska-kancelarija/static/media/dijana-biro.997b33dc9b0461c7fadf.webp",
+    "static/media/aboutImg.webp": "/advokatska-kancelarija/static/media/aboutImg.266877327154537df021.webp",
     "static/media/divider.svg": "/advokatska-kancelarija/static/media/divider.a78f081a7b39e72e6ced.svg",
-    "static/media/ornament35.svg": "/advokatska-kancelarija/static/media/ornament35.e944ded1103810e9ea15fb1c80242820.svg",
-    "static/media/ornament16.svg": "/advokatska-kancelarija/static/media/ornament16.9f7ef2c45dc8c39829705a41dc8610e7.svg",
     "index.html": "/advokatska-kancelarija/index.html",
     "static/media/close.svg": "/advokatska-kancelarija/static/media/close.d93e32175c080cca67bf7752b09a8b73.svg",
-    "main.68a0da0c.css.map": "/advokatska-kancelarija/static/css/main.68a0da0c.css.map",
-    "main.e042f3e8.js.map": "/advokatska-kancelarija/static/js/main.e042f3e8.js.map"
+    "main.ca92f0ae.css.map": "/advokatska-kancelarija/static/css/main.ca92f0ae.css.map",
+    "main.fcf7a8b4.js.map": "/advokatska-kancelarija/static/js/main.fcf7a8b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.68a0da0c.css",
-    "static/js/main.e042f3e8.js"
+    "static/css/main.ca92f0ae.css",
+    "static/js/main.fcf7a8b4.js"
   ]
 }
