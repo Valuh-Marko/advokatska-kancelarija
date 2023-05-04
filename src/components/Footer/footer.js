@@ -3,7 +3,6 @@ import GeneralContext from "../../context/GeneralContext";
 import { GrLocation, GrMail } from "react-icons/gr";
 import { BsFillHouseDoorFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillPhone } from "react-icons/ai";
-import ornament15 from "../../assets/images/ornament15.svg";
 import "./footer.scss";
 
 export const Footer = () => {
@@ -37,7 +36,6 @@ export const Footer = () => {
             </a>
           </div>
         ))}
-        <img className="c-ornament" src={ornament15} alt="ornament" />
       </div>
     </>
   );

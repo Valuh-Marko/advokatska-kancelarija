@@ -3,8 +3,6 @@
 .c-work-card {
   position: relative;
   overflow: hidden;
-  width: 20.3125rem;
-  height: 20.3125rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -12,36 +10,12 @@
   transition: all .2s ease-in;
   transform-origin: 50% 50%;
   justify-self: center;
+  height: 100%;
   cursor: pointer;
 
   @include breakpoint {
     width: 25rem;
     height: 25rem;
-  }
-
-  &:nth-child(3n+1)
-  {
-    grid-column: 1/2;
-
-    @include breakpoint {
-      grid-column: 1/2;
-    }
-  }
-
-  &:nth-child(3n+2) {
-    grid-column: 2/3;
-    
-    @include breakpoint {
-      grid-column: 1/2;
-    }
-  }
-
-  &:nth-child(3n+3) {
-    grid-column: 3/4;
-
-    @include breakpoint {
-      grid-column: 1/2;
-    }
   }
 
   & > *:not(img) {
@@ -86,9 +60,9 @@
 .c-work-card__bg {
   position: absolute;
   z-index: 0;
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  left: -30%;
   opacity: 45%;
 }
 
@@ -111,9 +85,4 @@
   transition: all .3s linear;
   font-size: .875rem;
   line-height: 1.3125rem;
-  max-height: 1.3125rem * 3;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }

@@ -3,7 +3,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import GeneralContext from "../../context/GeneralContext";
 import { DividerSide } from "../Decoratives/divider-side";
 import { heightMotion } from "../../animations/heightSwitch.animation";
-import ornament35 from "../../assets/images/ornament35.svg";
 import "./team.scss";
 import { Modal } from "../Modal/modal";
 
@@ -25,8 +24,9 @@ export const Team = () => {
           {ourTeam.map((member, index) => {
             return (
               <div
-                className={`c-member__image-wrapper ${hoverState === index ? "active" : ""
-                  }`}
+                className={`c-member__image-wrapper ${
+                  hoverState === index ? "active" : ""
+                }`}
                 key={`${index}img`}
               >
                 <img className="c-member__image" src={member.img} alt="img" />
@@ -36,8 +36,9 @@ export const Team = () => {
           {ourTeam.map((member, index) => {
             return (
               <motion.div
-                className={`c-member__name ${hoverState === index ? "active" : ""
-                  } `}
+                className={`c-member__name ${
+                  hoverState === index ? "active" : ""
+                } `}
                 initial="initial"
                 whileHover="hover"
                 animate="initial"
@@ -50,7 +51,11 @@ export const Team = () => {
               >
                 <div className="c-member-text-wrapper">
                   <h5 className="c-member__full-name">{member.name}</h5>
-                  <img src={member.logo} className="c-member__logo"></img>
+                  <img
+                    alt="teamMember"
+                    src={member.logo}
+                    className="c-member__logo"
+                  ></img>
                 </div>
                 <motion.p className="c-member__desc" variants={heightMotion}>
                   {member.desc}
@@ -67,7 +72,6 @@ export const Team = () => {
               />
             )}
           </AnimatePresence>
-          <img src={ornament35} alt="ornament" className="c-ornament36" />
         </div>
       </div>
     </>

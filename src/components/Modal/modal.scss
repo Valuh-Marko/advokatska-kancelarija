@@ -36,6 +36,7 @@
 .c-modal-img {
   flex: 1;
   width: 25rem;
+  object-fit: cover;
   pointer-events: none;
   touch-action: none;
 
