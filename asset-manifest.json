@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/advokatska-kancelarija/static/css/main.ca92f0ae.css",
-    "main.js": "/advokatska-kancelarija/static/js/main.fcf7a8b4.js",
+    "main.css": "/advokatska-kancelarija/static/css/main.d516cd70.css",
+    "main.js": "/advokatska-kancelarija/static/js/main.ce2c94bc.js",
+    "static/media/lady-justice.jpg": "/advokatska-kancelarija/static/media/lady-justice.3e6a98606ec1cf672af3.jpg",
+    "static/media/greek-interior.jpg": "/advokatska-kancelarija/static/media/greek-interior.dbe723f29582f771b07b.jpg",
+    "static/media/library.jpg": "/advokatska-kancelarija/static/media/library.70ec97a63ad86e40f040.jpg",
+    "static/media/skupstina.jpg": "/advokatska-kancelarija/static/media/skupstina.1f16b60bd10306b94bc3.jpg",
     "static/media/milan-nedic.webp": "/advokatska-kancelarija/static/media/milan-nedic.b5cbdd3cb26c1af6cf13.webp",
     "static/media/bottomBg.webp": "/advokatska-kancelarija/static/media/bottomBg.cdff082798d5a5a6bdd9.webp",
     "static/media/bannerBg.webp": "/advokatska-kancelarija/static/media/bannerBg.75382e6a8c4a6f1bd028.webp",
@@ -11,11 +15,11 @@
     "static/media/divider.svg": "/advokatska-kancelarija/static/media/divider.a78f081a7b39e72e6ced.svg",
     "index.html": "/advokatska-kancelarija/index.html",
     "static/media/close.svg": "/advokatska-kancelarija/static/media/close.d93e32175c080cca67bf7752b09a8b73.svg",
-    "main.ca92f0ae.css.map": "/advokatska-kancelarija/static/css/main.ca92f0ae.css.map",
-    "main.fcf7a8b4.js.map": "/advokatska-kancelarija/static/js/main.fcf7a8b4.js.map"
+    "main.d516cd70.css.map": "/advokatska-kancelarija/static/css/main.d516cd70.css.map",
+    "main.ce2c94bc.js.map": "/advokatska-kancelarija/static/js/main.ce2c94bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca92f0ae.css",
-    "static/js/main.fcf7a8b4.js"
+    "static/css/main.d516cd70.css",
+    "static/js/main.ce2c94bc.js"
   ]
 }
