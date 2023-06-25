@@ -14,6 +14,7 @@
 }
 
 .c-slider-action {
+  display: none;
   position: absolute;
   left: calc(100% + 1rem);
   top: calc(50% + 3rem);
@@ -29,6 +30,10 @@
   img {
     pointer-events: none;
   }
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }
 
 .c-fields-of-work-slider__wrapper {
@@ -38,18 +43,6 @@
   display: flex;
   align-items: center;
   width: 100%;
-
-  &::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 0rem;
-    width: .3125rem;
-    background-color: $alabaster;
-    border-radius: 4px;
-    height: calc(100%);
-    box-shadow: -1px 0px 2.5rem .3rem rgba(0,0,0, 1);
-  }
 }
 
 .c-fields-of-work-slider {
@@ -58,7 +51,6 @@
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   gap: 2.5rem;
-  padding-right: 3.75rem;
 
   &::-webkit-scrollbar {
     display: none;
@@ -66,8 +58,8 @@
 }
 
 .c-field-of-work {
-  scroll-snap-align: start;
-  min-width: 20rem;
+  scroll-snap-align: center;
+  min-width: 100%;
   text-align: justify;
   display: flex;
   flex-direction: column;
@@ -76,6 +68,10 @@
   max-height: 20rem;
   overflow-y: hidden;
   cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    min-width: 20rem;
+  }
 }
 
 .c-field-of-work__icon {

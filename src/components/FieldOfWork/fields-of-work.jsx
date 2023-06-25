@@ -8,7 +8,10 @@ import "./field-of-work.scss"
 
 export const FieldsOfWork = () => {
   const sliderRef = useRef(null);
+  const sliderWrapperRef = useRef(null);
+
   const { fieldsOfWork } = useContext(GeneralContext);
+
   const [modalOpen, setModalOpen] = useState(false);
   const [modalData, setModalData] = useState();
 
@@ -29,10 +32,10 @@ export const FieldsOfWork = () => {
   return (
     <div className="c-fields-of-work-container">
       <h2 className="c-fields-of-work__title">Oblasti rada</h2>
-      <div onClick={showNext} className="c-slider-action">
+      <div onClick={showNext} className='c-slider-action'>
         <img src={divider} alt="divider" />
       </div>
-      <div className='c-fields-of-work-slider__wrapper'>
+      <div className={`c-fields-of-work-slider__wrapper`} ref={sliderWrapperRef}>
         <div ref={sliderRef} className="c-fields-of-work-slider">
           {fieldsOfWork.map((work, index) => (
             <div className='c-field-of-work' key={index}
