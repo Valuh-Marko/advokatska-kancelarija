@@ -5,6 +5,7 @@ import { DividerSide } from "../Decoratives/divider-side";
 import { heightMotion } from "../../animations/heightSwitch.animation";
 import "./team.scss";
 import { Modal } from "../Modal/modal";
+import { FieldsOfWork } from "../FieldOfWork/fields-of-work";
 
 export const Team = () => {
   const { ourTeam } = useContext(GeneralContext);
@@ -18,7 +19,8 @@ export const Team = () => {
   return (
     <>
       <div className="c-team" id="our-team">
-        <h2 className="c-team__title">Upoznajte naš iskusni pravni tim</h2>
+        <FieldsOfWork />
+        <h2 className="c-team__title">Upoznajte naš pravni tim</h2>
         <DividerSide />
         <div className="c-team__holder">
           {ourTeam.map((member, index) => {

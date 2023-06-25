@@ -8,9 +8,7 @@ export const About = () => {
     <>
       <div className="c-about" id="about">
         <div className="c-about-text__container">
-          <h2 className="c-about__heading">
-            Stavljamo Vaše pravne <br /> potrebe na prvo mesto
-          </h2>
+          <h2 className="c-about__heading">O nama</h2>
           <DividerSide />
           <p className="c-about__text">
             Advokat Dijana Biro, advokat Davor Marić i advokat Milan Nedić se

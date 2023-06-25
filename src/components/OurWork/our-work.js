@@ -5,17 +5,17 @@ import GeneralContext from "../../context/GeneralContext";
 import { WorkCard } from "../WorkCard/work-card";
 
 export const OurWork = () => {
-  const { fieldsOfWork } = useContext(GeneralContext);
+  const { values } = useContext(GeneralContext);
 
   return (
     <>
       <div className="c-our-work" id="services">
         <h2 className="c-out-work__heading">
-          Nudimo širok spektar pravnih usluga za ispunjenje Vaših potreba
+          Stavljamo Vaše pravne potrebe <br /> na prvo mesto
         </h2>
         <DividerCenter />
         <div className="c-our-work__content-holder">
-          {fieldsOfWork.map((work, index) => (
+          {values.map((work, index) => (
             <WorkCard
               title={work.type}
               img={work.img}

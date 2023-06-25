@@ -144,14 +144,6 @@
   align-items: center;
   gap: 1.25rem;
 
-  &::after {
-    content: "";
-    display: block;
-    width: 1px;
-    background-color: $alabaster;
-    height: 30px;
-  }
-
   @include breakpoint {
     flex-direction: column;
     position: fixed;
@@ -164,18 +156,6 @@
     &::after {
       display: none;
     }
-  }
-}
-
-.c-header-socials {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem;
-
-  @include breakpoint {
-    padding-top: 1.25rem;
-    margin: 0 auto 1.25rem;
-    gap: 2.5rem;
   }
 }
 

@@ -39,6 +39,13 @@
   object-fit: cover;
   pointer-events: none;
   touch-action: none;
+  
+  &.c-modal-img__short {
+    padding: 2rem;
+    background: $alabaster;
+    object-position: center;
+    object-fit: contain;
+  }
 
   @include breakpoint {
     width: 100%;

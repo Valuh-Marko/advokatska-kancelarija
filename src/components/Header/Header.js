@@ -62,29 +62,6 @@ export const Header = () => {
               Kontakt
             </a>
           </ul>
-          <ul className="c-header-socials">
-            <motion.a
-              href="#"
-              className="c-header-socials__link"
-              whileHover={{ scale: 2, transition: { duration: 0.4 } }}
-            >
-              <Linkedin customClass="c-icon" />
-            </motion.a>
-            <motion.a
-              href="#"
-              className="c-header-socials__link"
-              whileHover={{ scale: 2, transition: { duration: 0.4 } }}
-            >
-              <Facebook customClass="c-icon" />
-            </motion.a>
-            <motion.a
-              href="#"
-              className="c-header-socials__link"
-              whileHover={{ scale: 2, transition: { duration: 0.4 } }}
-            >
-              <Twitter customClass="c-icon" />
-            </motion.a>
-          </ul>
         </nav>
         <nav className="c-header-nav-wrapper c-header-nav-wrapper--mobile">
           <div
@@ -146,32 +123,6 @@ export const Header = () => {
                 >
                   Contact
                 </motion.a>
-                <ul className="c-header-socials">
-                  <motion.a
-                    variants={slideInFade}
-                    onClick={() => setOpen(!open)}
-                    href="#"
-                    className="c-header-socials__link"
-                  >
-                    <Linkedin customClass="c-icon" />
-                  </motion.a>
-                  <motion.a
-                    variants={slideInFade}
-                    onClick={() => setOpen(!open)}
-                    href="#"
-                    className="c-header-socials__link"
-                  >
-                    <Facebook customClass="c-icon" />
-                  </motion.a>
-                  <motion.a
-                    variants={slideInFade}
-                    onClick={() => setOpen(!open)}
-                    href="#"
-                    className="c-header-socials__link"
-                  >
-                    <Twitter customClass="c-icon" />
-                  </motion.a>
-                </ul>
               </motion.ul>
             )}
           </AnimatePresence>

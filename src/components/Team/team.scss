@@ -79,6 +79,8 @@
   overflow: hidden;
   transition: all .3s ease-out;
   background-color: black;
+  box-shadow: .625rem .625rem 1.5625rem rgba(0,0,0, .25);
+
 
   @include breakpoint {
     width: 22.5rem;
@@ -145,7 +147,7 @@
   height: 100%;
   object-fit: cover;
   opacity: .75;
-  filter: blur(1.5008px);
+  filter: blur(.0938rem);
 }
 
 .c-member__name {
@@ -183,7 +185,7 @@
 .c-member-text-wrapper {
   margin-bottom: .625rem;
   padding-bottom: .625rem;
-  border-bottom: 2px solid $copper;
+  border-bottom: .125rem solid $copper;
   display: flex;
   align-items: center;
   gap: 1.25rem;
@@ -191,7 +193,7 @@
 
 .c-member__logo {
   display: inline-block;
-  height: 30px;
+  height: 1.875rem;
 }
 
 .c-member__full-name {
