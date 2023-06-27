@@ -1,16 +1,29 @@
 @import "../../styles/variables";
 
 .c-fields-of-work-container {
-  width: 100%;
+  width: calc(100% + 15.625rem);
   margin-bottom: 2.5rem;
-  position: relative;  
+  position: relative;
+  left: -15.625rem;
+  background: $gradientGreen;  
+  color: $alabaster;
+  padding: 5rem 5rem 5rem 0;
+  box-shadow: -0.9375rem 0.9375rem 2.25rem rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
 .c-fields-of-work__title {
   font-size: 3rem;
   line-height: 4rem;
   font-weight: 400;
-  margin-bottom: 2.5rem;
+  padding-left: 15.625rem;
+}
+
+.c-divider-title {
+  color: $copper;
+  transform: rotate(180deg) translateX(38%);
 }
 
 .c-slider-action {
@@ -22,6 +35,7 @@
   cursor: pointer;
   transition: transform .2s linear;
   transform-origin: center;
+  width: 8rem;
 
   &:hover {
     transform: translateY(-50%) rotate(180deg) scale(1.1);
@@ -29,6 +43,7 @@
 
   img {
     pointer-events: none;
+    width: 100%;
   }
 
   @media screen and (min-width: 768px) {
@@ -50,7 +65,8 @@
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
-  gap: 2.5rem;
+  gap: 5rem;
+  padding-left: 5rem;
 
   &::-webkit-scrollbar {
     display: none;
@@ -63,10 +79,14 @@
   text-align: justify;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   gap: 1.25rem;
-  max-height: 20rem;
+  max-height: 25rem;
   overflow-y: hidden;
+  background: $gradientCream;
+  color: $richBlackFogra39;
+  box-shadow: -1rem 1rem 1.5625rem rgba(0, 0, 0, 0.5);
+  padding: 2.5rem;
   cursor: pointer;
 
   @media screen and (min-width: 768px) {
@@ -76,12 +96,12 @@
 
 .c-field-of-work__icon {
   aspect-ratio: 1;
-  width: 8rem;
+  width: 6rem;
 }
 
 .c-field-of-work__title {
   font-size: 1.625rem;
-  text-align: center;
+  text-align: left;
 }
 
 .c-field-of-work__desc {
