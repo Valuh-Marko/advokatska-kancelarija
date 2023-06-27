@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/advokatska-kancelarija/static/css/main.6efdea6e.css",
-    "main.js": "/advokatska-kancelarija/static/js/main.c9efe823.js",
+    "main.css": "/advokatska-kancelarija/static/css/main.f696b3f7.css",
+    "main.js": "/advokatska-kancelarija/static/js/main.ef6a176f.js",
     "static/media/lady-justice.jpg": "/advokatska-kancelarija/static/media/lady-justice.3e6a98606ec1cf672af3.jpg",
     "static/media/greek-interior.jpg": "/advokatska-kancelarija/static/media/greek-interior.dbe723f29582f771b07b.jpg",
     "static/media/library.jpg": "/advokatska-kancelarija/static/media/library.70ec97a63ad86e40f040.jpg",
@@ -24,11 +24,11 @@
     "static/media/damage.svg": "/advokatska-kancelarija/static/media/damage.da0f871d318b4dd3774920f2acf6c2c3.svg",
     "static/media/message-text.svg": "/advokatska-kancelarija/static/media/message-text.14fe535142c113eb22751057c13957a8.svg",
     "static/media/close.svg": "/advokatska-kancelarija/static/media/close.d93e32175c080cca67bf7752b09a8b73.svg",
-    "main.6efdea6e.css.map": "/advokatska-kancelarija/static/css/main.6efdea6e.css.map",
-    "main.c9efe823.js.map": "/advokatska-kancelarija/static/js/main.c9efe823.js.map"
+    "main.f696b3f7.css.map": "/advokatska-kancelarija/static/css/main.f696b3f7.css.map",
+    "main.ef6a176f.js.map": "/advokatska-kancelarija/static/js/main.ef6a176f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6efdea6e.css",
-    "static/js/main.c9efe823.js"
+    "static/css/main.f696b3f7.css",
+    "static/js/main.ef6a176f.js"
   ]
 }
