@@ -1,18 +1,20 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Logo } from "../Icons/Logo/logo";
-import { Linkedin } from "../Icons/Linkedin/linkedin";
-import { Facebook } from "../Icons/Facebook/facebook";
-import { Twitter } from "../Icons/Twitter/twitter";
 import { AnimatePresence, motion } from "framer-motion";
 import { slideIn, slideInFade } from "../../animations/SlideIn.animaiton";
 import "./header.scss";
+import { Link } from "react-router-dom";
 
-export const Header = () => {
+export const Header = ({ isArticles }) => {
   const header = useRef(null);
   const [open, setOpen] = useState(false);
+  const [isArticlesPage, setIsArticlesPage] = useState(false);
 
   useEffect(() => {
     let lastScrollTop = 0;
+
+    isArticles && setIsArticlesPage(true);
+
     const scrollListener = window.addEventListener("scroll", (e) => {
       let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
@@ -40,27 +42,37 @@ export const Header = () => {
   return (
     <>
       <header ref={header} className="c-header">
-        <a href="#" className="c-logo-wrapper">
+        <Link href="#" className="c-logo-wrapper" to="/advokatska-kancelarija">
           <Logo customClass="c-icon c-icon--logo" />
           <h3 className="c-logo">NMB</h3>
-        </a>
+        </Link>
         <nav className="c-header-nav-wrapper c-header-nav-wrapper--desktop">
           <ul className="c-header-nav">
-            <a href="#" className="c-header__link">
-              Početak
-            </a>
-            <a href="#about" className="c-header__link">
-              O Nama
-            </a>
-            <a href="#services" className="c-header__link">
-              Naše Usluge
-            </a>
-            <a href="#our-team" className="c-header__link">
-              Upoznaj naš tim
-            </a>
-            <a href="#footer" className="c-header__link">
-              Kontakt
-            </a>
+            {!isArticlesPage ? (
+              <>
+                <a href="#" className="c-header__link">
+                  Početak
+                </a>
+                <a href="#about" className="c-header__link">
+                  O Nama
+                </a>
+                <a href="#services" className="c-header__link">
+                  Naše Usluge
+                </a>
+                <a href="#our-team" className="c-header__link">
+                  Upoznaj naš tim
+                </a>
+                <a href="#footer" className="c-header__link">
+                  Kontakt
+                </a>
+              </>
+            ) : null}
+            <Link
+              to="/advokatska-kancelarija/tekstovi"
+              className="c-header__link"
+            >
+              Tekstovi
+            </Link>
           </ul>
         </nav>
         <nav className="c-header-nav-wrapper c-header-nav-wrapper--mobile">
@@ -83,45 +95,56 @@ export const Header = () => {
                 animate="open"
                 exit="initial"
               >
+                {!isArticlesPage ? (
+                  <>
+                    <motion.a
+                      variants={slideInFade}
+                      onClick={() => setOpen(!open)}
+                      href="#"
+                      className="c-header__link"
+                    >
+                      Home
+                    </motion.a>
+                    <motion.a
+                      variants={slideInFade}
+                      onClick={() => setOpen(!open)}
+                      href="#about"
+                      className="c-header__link"
+                    >
+                      About
+                    </motion.a>
+                    <motion.a
+                      variants={slideInFade}
+                      onClick={() => setOpen(!open)}
+                      href="#services"
+                      className="c-header__link"
+                    >
+                      Services
+                    </motion.a>
+                    <motion.a
+                      variants={slideInFade}
+                      onClick={() => setOpen(!open)}
+                      href="#our-team"
+                      className="c-header__link"
+                    >
+                      Meet Our Team
+                    </motion.a>
+                    <motion.a
+                      variants={slideInFade}
+                      onClick={() => setOpen(!open)}
+                      href="#footer"
+                      className="c-header__link"
+                    >
+                      Contact
+                    </motion.a>
+                  </>
+                ) : null}
                 <motion.a
                   variants={slideInFade}
                   onClick={() => setOpen(!open)}
-                  href="#"
                   className="c-header__link"
                 >
-                  Home
-                </motion.a>
-                <motion.a
-                  variants={slideInFade}
-                  onClick={() => setOpen(!open)}
-                  href="#about"
-                  className="c-header__link"
-                >
-                  About
-                </motion.a>
-                <motion.a
-                  variants={slideInFade}
-                  onClick={() => setOpen(!open)}
-                  href="#services"
-                  className="c-header__link"
-                >
-                  Services
-                </motion.a>
-                <motion.a
-                  variants={slideInFade}
-                  onClick={() => setOpen(!open)}
-                  href="#our-team"
-                  className="c-header__link"
-                >
-                  Meet Our Team
-                </motion.a>
-                <motion.a
-                  variants={slideInFade}
-                  onClick={() => setOpen(!open)}
-                  href="#footer"
-                  className="c-header__link"
-                >
-                  Contact
+                  <Link to="/advokatska-kancelarija/tekstovi">Tekstovi</Link>
                 </motion.a>
               </motion.ul>
             )}

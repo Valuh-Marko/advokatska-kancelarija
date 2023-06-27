@@ -1,26 +1,20 @@
-import { About } from "./components/About/about";
-import { Banner } from "./components/Banner/banner";
-import { Header } from "./components/Header/Header";
-import { OurWork } from "./components/OurWork/our-work";
-import { Team } from "./components/Team/team";
 import { GeneralProvider } from "./context/GeneralContext";
-import { motion, useScroll, useTransform } from "framer-motion";
 import "./styles/styles.scss";
-import { Footer } from "./components/Footer/footer";
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./components/Home/Home";
+import { Articles } from "./components/Articles/articles";
 
 function App() {
-  let { scrollYProgress } = useScroll();
-  let y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   return (
     <GeneralProvider>
       <div className="App">
-        <Header />
-        <Banner />
-        <About />
-        <OurWork />
-        <Team />
-        <Footer />
-        <motion.div className="c-bottom-bg" style={{ y }}></motion.div>
+        <Routes>
+          <Route path="/advokatska-kancelarija" element={<Home />} />
+          <Route
+            path="/advokatska-kancelarija/tekstovi"
+            element={<Articles />}
+          />
+        </Routes>
       </div>
     </GeneralProvider>
   );

@@ -12,6 +12,12 @@
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+
+  @media screen and (max-width: 768px) {
+    left: 0;
+    padding: 5rem 2.5rem;
+    width: 100%;
+  }
 }
 
 .c-fields-of-work__title {
@@ -19,11 +25,19 @@
   line-height: 4rem;
   font-weight: 400;
   padding-left: 15.625rem;
+
+  @media screen and (max-width: 768px) {
+    padding-left: 0;
+  }
 }
 
 .c-divider-title {
   color: $copper;
   transform: rotate(180deg) translateX(38%);
+
+  @media screen and (max-width: 768px) {
+    transform: rotate(180deg) translateX(68%);
+  }
 }
 
 .c-slider-action {
