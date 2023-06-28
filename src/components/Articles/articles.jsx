@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import { DividerCenter } from '../Decoratives/divider-center';
 import ArticlesContext from '../../context/ArticlesContext';
 import './articles.scss';
@@ -6,10 +6,6 @@ import { WorkCard } from '../WorkCard/work-card';
 
 export const Articles = () => {
   const { articles } = useContext(ArticlesContext);
-
-  useEffect(() => {
-    console.log(articles);
-  }, [])
 
   return (
     <>
@@ -25,6 +21,7 @@ export const Articles = () => {
               desc={article.desc}
               img={article.image}
               key={index}
+              modalEnabled={true}
             />
           ))}
         </div>

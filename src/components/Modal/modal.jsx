@@ -49,13 +49,13 @@ export const ArticlesModal = ({ handleClose, data }) => {
     <Backdrop onClick={handleClose}>
       <motion.div
         onClick={(e) => e.stopPropagation()}
-        className="c-modal c-modal--articles"
+        className="c-modal c-modal--article"
       >
         <img src={close} alt="close-img" className='c-close-icon' onClick={handleClose} />
-        <img src={data.image} alt="image" className="c-modal-img c-modal-img__short" />
+        <img src={data.img} alt="image" className="c-modal-img" />
         <div className="c-modal-text-container">
           <h2 className="c-modal-title">{data.title}</h2>
-          <p className="c-modal-desc">{data.body}</p>
+          <p className="c-modal-desc">{data.desc}</p>
         </div>
       </motion.div>
     </Backdrop>,

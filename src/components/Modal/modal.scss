@@ -26,6 +26,29 @@
   justify-content: center;
   position: relative;
   box-shadow: -0.9375rem 0.9375rem 2.25rem rgb(0 0 0 / 25%);
+  max-height: 90vh;
+
+  &.c-modal--article {
+    flex-direction: column;
+    overflow: hidden;
+
+    .c-modal-img {
+      width: 100%;
+      max-height: 40vh;
+
+      @include breakpoint {
+        max-height: 100%;
+      }
+    }
+
+    .c-modal-text-container {
+      max-height: 100%;
+
+      @include breakpoint {
+        max-height: 60%;
+      }
+    }
+  }
 
   @include breakpoint {
     width: 100%;
@@ -98,6 +121,10 @@
 .c-modal-desc {
   color: $alabaster;
   overflow: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .c-ornament-top {
