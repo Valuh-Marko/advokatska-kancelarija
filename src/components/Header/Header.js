@@ -8,12 +8,9 @@ import { Link } from "react-router-dom";
 export const Header = ({ isArticles }) => {
   const header = useRef(null);
   const [open, setOpen] = useState(false);
-  const [isArticlesPage, setIsArticlesPage] = useState(false);
 
   useEffect(() => {
     let lastScrollTop = 0;
-
-    isArticles && setIsArticlesPage(true);
 
     const scrollListener = window.addEventListener("scroll", (e) => {
       let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -48,7 +45,7 @@ export const Header = ({ isArticles }) => {
         </Link>
         <nav className="c-header-nav-wrapper c-header-nav-wrapper--desktop">
           <ul className="c-header-nav">
-            {!isArticlesPage ? (
+            {!isArticles ? (
               <>
                 <a href="#" className="c-header__link">
                   Početak
@@ -65,14 +62,18 @@ export const Header = ({ isArticles }) => {
                 <a href="#footer" className="c-header__link">
                   Kontakt
                 </a>
+                <Link
+                  to="/advokatska-kancelarija/tekstovi"
+                  className="c-header__link"
+                >
+                  Tekstovi
+                </Link>
               </>
-            ) : null}
-            <Link
-              to="/advokatska-kancelarija/tekstovi"
-              className="c-header__link"
-            >
-              Tekstovi
-            </Link>
+            ) : (
+              <Link to="/advokatska-kancelarija" className="c-header__link">
+                Početna
+              </Link>
+            )}
           </ul>
         </nav>
         <nav className="c-header-nav-wrapper c-header-nav-wrapper--mobile">
@@ -95,7 +96,7 @@ export const Header = ({ isArticles }) => {
                 animate="open"
                 exit="initial"
               >
-                {!isArticlesPage ? (
+                {!isArticles ? (
                   <>
                     <motion.a
                       variants={slideInFade}
@@ -137,15 +138,25 @@ export const Header = ({ isArticles }) => {
                     >
                       Contact
                     </motion.a>
+                    <motion.a
+                      variants={slideInFade}
+                      onClick={() => setOpen(!open)}
+                      className="c-header__link"
+                    >
+                      <Link to="/advokatska-kancelarija/tekstovi">
+                        Tekstovi
+                      </Link>
+                    </motion.a>
                   </>
-                ) : null}
-                <motion.a
-                  variants={slideInFade}
-                  onClick={() => setOpen(!open)}
-                  className="c-header__link"
-                >
-                  <Link to="/advokatska-kancelarija/tekstovi">Tekstovi</Link>
-                </motion.a>
+                ) : (
+                  <motion.a
+                    variants={slideInFade}
+                    onClick={() => setOpen(!open)}
+                    className="c-header__link"
+                  >
+                    <Link to="/advokatska-kancelarija">Početna</Link>
+                  </motion.a>
+                )}
               </motion.ul>
             )}
           </AnimatePresence>

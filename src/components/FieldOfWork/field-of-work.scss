@@ -41,18 +41,32 @@
 }
 
 .c-slider-action {
-  display: none;
+  display: block;
   position: absolute;
-  left: calc(100% + 1rem);
-  top: calc(50% + 3rem);
+  top: calc(50% + 5rem);
   transform: translateY(-50%) rotate(180deg) scale(1);
   cursor: pointer;
   transition: transform .2s linear;
   transform-origin: center;
   width: 8rem;
+  z-index: 50;
 
   &:hover {
     transform: translateY(-50%) rotate(180deg) scale(1.1);
+  }
+
+  &.right {
+    right: -4rem;
+  }
+
+  &.left {
+    display: none;
+    transform: translateY(-50%) scale(1);
+    left: 0;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   img {
@@ -60,8 +74,17 @@
     width: 100%;
   }
 
-  @media screen and (min-width: 768px) {
-    display: block;
+  @media screen and (max-width: 768px) {
+    width: 6rem;
+
+    &.left {
+      left: -2rem;
+      display: block;
+    }
+
+    &.right {
+      right: -2rem;
+    }
   }
 }
 

@@ -85,4 +85,8 @@
   transition: all .3s linear;
   font-size: .875rem;
   line-height: 1.3125rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
 }

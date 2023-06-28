@@ -26,9 +26,8 @@ export const Team = () => {
           {ourTeam.map((member, index) => {
             return (
               <div
-                className={`c-member__image-wrapper ${
-                  hoverState === index ? "active" : ""
-                }`}
+                className={`c-member__image-wrapper ${hoverState === index ? "active" : ""
+                  }`}
                 key={`${index}img`}
               >
                 <img className="c-member__image" src={member.img} alt="img" />
@@ -38,9 +37,8 @@ export const Team = () => {
           {ourTeam.map((member, index) => {
             return (
               <motion.div
-                className={`c-member__name ${
-                  hoverState === index ? "active" : ""
-                } `}
+                className={`c-member__name ${hoverState === index ? "active" : ""
+                  } `}
                 initial="initial"
                 whileHover="hover"
                 animate="initial"
@@ -52,6 +50,7 @@ export const Team = () => {
                 }}
               >
                 <div className="c-member-text-wrapper">
+                  <p className="c-member__title">{member.title}</p>
                   <h5 className="c-member__full-name">{member.name}</h5>
                   <img
                     alt="teamMember"

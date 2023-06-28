@@ -26,7 +26,6 @@ export const Modal = ({ handleClose, data }) => {
 }
 
 export const ShortModal = ({ handleClose, data }) => {
-  console.log(data);
   return ReactDOM.createPortal(
     <Backdrop onClick={handleClose}>
       <motion.div
@@ -43,4 +42,23 @@ export const ShortModal = ({ handleClose, data }) => {
     </Backdrop>,
     document.getElementById('portal')
   )
-} 
+}
+
+export const ArticlesModal = ({ handleClose, data }) => {
+  return ReactDOM.createPortal(
+    <Backdrop onClick={handleClose}>
+      <motion.div
+        onClick={(e) => e.stopPropagation()}
+        className="c-modal c-modal--articles"
+      >
+        <img src={close} alt="close-img" className='c-close-icon' onClick={handleClose} />
+        <img src={data.image} alt="image" className="c-modal-img c-modal-img__short" />
+        <div className="c-modal-text-container">
+          <h2 className="c-modal-title">{data.title}</h2>
+          <p className="c-modal-desc">{data.body}</p>
+        </div>
+      </motion.div>
+    </Backdrop>,
+    document.getElementById('portal')
+  )
+}

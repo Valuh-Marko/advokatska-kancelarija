@@ -12,7 +12,6 @@ export const Home = () => {
   let y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   return (
     <div>
-      <Header />
       <Banner />
       <About />
       <OurWork />

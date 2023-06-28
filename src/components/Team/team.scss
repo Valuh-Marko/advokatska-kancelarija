@@ -199,8 +199,15 @@
 .c-member__full-name {
   position: relative;
   font-size: 1.625rem;
-  display: inline-block;
-  width: 100%;
+  display: block;
+  width: fit-content;
+}
+
+.c-member__title {
+  margin-left: auto;
+  align-self: flex-end;
+  margin-bottom: -1px;
+  font-weight: 500;
 }
 
 .c-member__desc {

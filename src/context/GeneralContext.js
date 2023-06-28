@@ -2,10 +2,10 @@ import React from "react";
 import davor from "../assets/images/davor-maric.webp";
 import milan from "../assets/images/milan-nedic.webp";
 import dijana from "../assets/images/dijana-biro.webp";
-import greekInterior from "../assets/images/greek-interior.jpg";
-import ladyJustice from "../assets/images/lady-justice.jpg";
-import library from "../assets/images/library.jpg";
-import skupstina from "../assets/images/skupstina.jpg";
+import greekInterior from "../assets/images/greek-interior.webp";
+import ladyJustice from "../assets/images/lady-justice.webp";
+import library from "../assets/images/library.webp";
+import skupstina from "../assets/images/skupstina.webp";
 // Icons Import
 import contract from "../assets/images/contract.svg";
 import damage from "../assets/images/damage.svg";
@@ -15,6 +15,8 @@ import pedestrian from "../assets/images/pedestrian.svg";
 import criminal from "../assets/images/criminal.svg";
 import administrative from "../assets/images/administrative.svg";
 import search from "../assets/images/search.svg";
+import cadastre from "../assets/images/cadastre.svg";
+import megaphone from "../assets/images/megaphone.svg";
 import other from "../assets/images/message-text.svg";
 
 const GeneralContext = React.createContext();
@@ -27,12 +29,14 @@ export const GeneralProvider = ({ children }) => {
       logo: "https://i.imgur.com/RO32zRk.png",
       img: davor,
       desc: `Advokat Davor Marić je rođen 1989. godine u Sarajevu. Nakon završene Gimnazije „Jovan Jovanović Zmaj“ u Novom Sadu upisuje Pravni Fakultet Univerziteta u Novom Sadu 2008. Godine – smer opšti, na kojem i diplomira 08.02.2013. godine.
-      Pripravničku vežbu je obavljao u Višem sudu u Novom Sadu, zatim u advokatskoj kancelariji Nebojša Karanović i advokatskoj kancelariji Zoran Trbuk.
-      Zvanje Master pravnika stiče 30.10.2014. godine nakon što je odbranio završni master rad na temu „Pozitivne obaveze država u pogledu zaštite prava na život“ na Pravnom fakultetu Univerziteta u  Novom Sadu.
-      Pravosudni ispit je položio 29.06.2016. godine, a advokatski ispit je položio 25.11.2016. godine.
+      Pripravničku vežbu je obavljao u u advokatskoj kancelariji do 2013. godine do 2016. godine
+      Zvanje Master pravnika stiče 2014. godine nakon što je odbranio završni master rad na temu „Pozitivne obaveze država u pogledu zaštite prava na život“ na Pravnom fakultetu Univerziteta u  Novom Sadu.
+      Pravosudni ispit je položio 2016. godine. 
+      Advokatski ispit je položio 2016. godine.
       Od 14.02.2017. godine je upisan u imenik advokata i član je Advokatske komore Vojvodine.
       Poseduje sertifikate za odbranu maloletnih učinilaca krivičnih dela i zastupanje maloletnih oštećenih lica, sertifikat za zastupanje klijenata u medijaciji, sertifikat o završenoj obuci pravna zaštita od nasilja u porodici.
-      Pored maternjeg srpskog jezika govori još i engleski jezik, a služi se ruskim jezikom.`,
+      Pored maternjeg srpskog jezika govori još i engleski jezik, a služi se ruskim jezikom.
+      `,
       email: "adv.davormaric@gmail.com",
       phone: "381637457275",
     },
@@ -141,7 +145,7 @@ export const GeneralProvider = ({ children }) => {
       icon: work,
     },
     {
-      title: "Privredno pravo",
+      title: "Postupak pred APR - Privredno pravo",
       desc: "Osnivanje i registracija preduzetnika i pravnih lica, promena pravne forme privrednog društva i rešavanje statusnih pitanja, izrada opštih i posebnih pravnih akata, postupak registracije i zaštite patenta, zastupanje u privrednim sporovima, privrednim prestupima i stečajnim postupcima i likvidaciji.",
       icon: economy,
     },
@@ -164,6 +168,16 @@ export const GeneralProvider = ({ children }) => {
       title: "Postupak naplate potraživanja",
       desc: "Konsultacije i vođenje postupka prinudne naplate potraživanja na osnovu verodostojne i izvršne isprave pred javnim izvršiteljima.",
       icon: search,
+    },
+    {
+      title: "Postupak pred Katastrom",
+      desc: "Uknjizba, provera imovine, promena podataka u listovima nepokretnosti pre RGZ",
+      icon: cadastre,
+    },
+    {
+      title: "Zastupanje u javnim prodajama",
+      desc: "Zastupanje klijenata na javnim prodajama, licitacijama u kojim se kupuju nepokretnosti, pokretnosti",
+      icon: megaphone,
     },
     {
       title: "Ostalo",
