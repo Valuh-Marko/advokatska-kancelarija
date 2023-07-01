@@ -41,7 +41,10 @@ export const Header = ({ isArticles }) => {
       <header ref={header} className="c-header">
         <Link href="#" className="c-logo-wrapper" to="/advokatska-kancelarija">
           <Logo customClass="c-icon c-icon--logo" />
-          <h3 className="c-logo">NMB</h3>
+          <h3 className="c-logo">ADVOKATI</h3>
+          <p className="c-sublogo">
+            iz <span>Novog Sada</span>
+          </p>
         </Link>
         <nav className="c-header-nav-wrapper c-header-nav-wrapper--desktop">
           <ul className="c-header-nav">
@@ -66,7 +69,7 @@ export const Header = ({ isArticles }) => {
                   to="/advokatska-kancelarija/tekstovi"
                   className="c-header__link"
                 >
-                  Tekstovi
+                  Stručni Tekstovi
                 </Link>
               </>
             ) : (
@@ -104,7 +107,7 @@ export const Header = ({ isArticles }) => {
                       href="#"
                       className="c-header__link"
                     >
-                      Home
+                      Početna
                     </motion.a>
                     <motion.a
                       variants={slideInFade}
@@ -112,7 +115,7 @@ export const Header = ({ isArticles }) => {
                       href="#about"
                       className="c-header__link"
                     >
-                      About
+                      O Nama
                     </motion.a>
                     <motion.a
                       variants={slideInFade}
@@ -120,7 +123,7 @@ export const Header = ({ isArticles }) => {
                       href="#services"
                       className="c-header__link"
                     >
-                      Services
+                      Naše Usluge
                     </motion.a>
                     <motion.a
                       variants={slideInFade}
@@ -128,7 +131,7 @@ export const Header = ({ isArticles }) => {
                       href="#our-team"
                       className="c-header__link"
                     >
-                      Meet Our Team
+                      Upoznaj Naš Tim
                     </motion.a>
                     <motion.a
                       variants={slideInFade}
@@ -136,7 +139,7 @@ export const Header = ({ isArticles }) => {
                       href="#footer"
                       className="c-header__link"
                     >
-                      Contact
+                      Kontakt
                     </motion.a>
                     <motion.a
                       variants={slideInFade}
@@ -144,7 +147,7 @@ export const Header = ({ isArticles }) => {
                       className="c-header__link"
                     >
                       <Link to="/advokatska-kancelarija/tekstovi">
-                        Tekstovi
+                        Stručni Tekstovi
                       </Link>
                     </motion.a>
                   </>

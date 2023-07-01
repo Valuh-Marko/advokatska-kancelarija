@@ -33,30 +33,38 @@
 
 .c-logo-wrapper {
   color: $alabaster;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: .313rem;
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  place-items: center;
+  column-gap: .3125rem;
 }
 
 .c-logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   font-family: $playfairDisplay;
-  line-height: 2rem;
+  line-height: 1.5rem;
   margin-top: -2px;
+  place-self: flex-start;
 }
 
 .c-icon {
   cursor: pointer;
   aspect-ratio: 1;
   width: 12px;
+  grid-row: span 2;
 
   &.c-icon--logo {
-    width: 2rem;
-    height: 2rem;
+    width: 2.5em;
+    height: 2.5rem;
     color: $copper;
   }
+}
+
+.c-sublogo {
+  font-size: 1rem;
+  line-height: 1rem;
+  place-self: flex-start;
 }
 
 .c-header-nav-wrapper {
@@ -162,7 +170,7 @@
 .c-header__link {
   position: relative;
   color: $alabaster;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   font-family: $raleway;
   cursor: pointer;

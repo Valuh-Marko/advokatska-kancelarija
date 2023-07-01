@@ -7,7 +7,7 @@ import divider from "../../assets/images/divider.svg"
 import "./field-of-work.scss"
 
 export const FieldsOfWork = () => {
-  const [counter, setCounter] = useState(1);
+  let [counter, setCounter] = useState(1);
   const sliderRef = useRef(null);
   const sliderWrapperRef = useRef(null);
 
@@ -26,7 +26,7 @@ export const FieldsOfWork = () => {
     switch (direction) {
       case 'right':
         sliderRef.current.scrollLeft += sliderRefClientWidth
-        sliderRefClientWidth <= 532 ? setCounter(counter + 1) : setCounter(counter + 3);
+        sliderRefClientWidth <= 532 ? setCounter((counter) = counter + 1) : setCounter((counter) = counter + 3);
         break;
 
       default:
@@ -35,12 +35,9 @@ export const FieldsOfWork = () => {
         break;
     }
 
-    console.log(counter);
-
-    if (counter >= sliderRefChildrenCount) {
-      console.log(counter);
+    if (counter > sliderRefChildrenCount) {
       sliderRef.current.scrollLeft = 0;
-      counter = 1
+      setCounter(1);
 
       return;
     }
@@ -48,7 +45,7 @@ export const FieldsOfWork = () => {
     if (counter === 1) {
       sliderRef.current.scrollLeft = 0;
       sliderRef.current.scrollLeft += sliderRefClientWidth * sliderRefChildrenCount;
-      counter = sliderRefChildrenCount;
+      setCounter(sliderRefChildrenCount);
 
       return;
     }

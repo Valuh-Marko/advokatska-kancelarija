@@ -34,9 +34,6 @@ export const Footer = () => {
           </div>
         ))}
       </div>
-      <a href="https://calendar.google.com/calendar/embed?src=388de8e0ea2979f071bfccaa348787d848e465062f684b289ee2168359cee549%40group.calendar.google.com&ctz=Europe%2FBelgrade">
-        Ajde kklini ovde
-      </a>
     </>
   );
 };
