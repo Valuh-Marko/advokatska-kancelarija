@@ -81,6 +81,10 @@
   background-color: black;
   box-shadow: .625rem .625rem 1.5625rem rgba(0,0,0, .25);
 
+  &:hover {
+    cursor: pointer;
+    transform: scale(.97);
+  }
 
   @include breakpoint {
     width: 22.5rem;

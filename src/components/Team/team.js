@@ -26,9 +26,15 @@ export const Team = () => {
           {ourTeam.map((member, index) => {
             return (
               <div
-                className={`c-member__image-wrapper ${hoverState === index ? "active" : ""
-                  }`}
+                className={`c-member__image-wrapper ${
+                  hoverState === index ? "active" : ""
+                }`}
                 key={`${index}img`}
+                onClick={() => {
+                  modalOpen ? closeModal() : openModal();
+                  setHoverState(index);
+                  setModalData(index);
+                }}
               >
                 <img className="c-member__image" src={member.img} alt="img" />
               </div>
@@ -37,8 +43,9 @@ export const Team = () => {
           {ourTeam.map((member, index) => {
             return (
               <motion.div
-                className={`c-member__name ${hoverState === index ? "active" : ""
-                  } `}
+                className={`c-member__name ${
+                  hoverState === index ? "active" : ""
+                } `}
                 initial="initial"
                 whileHover="hover"
                 animate="initial"
