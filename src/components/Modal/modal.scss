@@ -57,7 +57,7 @@
     .c-modal-img {
       position: relative;
       width: 100%;
-      max-height: 10vh;
+      max-height: 30vh;
 
       @include breakpoint {
         max-height: 20vh;
