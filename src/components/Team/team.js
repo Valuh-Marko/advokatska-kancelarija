@@ -6,6 +6,7 @@ import { heightMotion } from "../../animations/heightSwitch.animation";
 import "./team.scss";
 import { Modal } from "../Modal/modal";
 import { FieldsOfWork } from "../FieldOfWork/fields-of-work";
+import { Interns } from "../Interns/interns";
 
 export const Team = () => {
   const { ourTeam } = useContext(GeneralContext);
@@ -18,11 +19,11 @@ export const Team = () => {
 
   return (
     <>
-      <div className="c-team" id="our-team">
+      <div className="c-team">
         <FieldsOfWork />
         <h2 className="c-team__title">Upoznajte naš pravni tim</h2>
         <DividerSide />
-        <div className="c-team__holder">
+        <div className="c-team__holder" id="our-team">
           {ourTeam.map((member, index) => {
             return (
               <div
@@ -81,6 +82,7 @@ export const Team = () => {
             )}
           </AnimatePresence>
         </div>
+        <Interns />
       </div>
     </>
   );

@@ -30,7 +30,7 @@ export const ShortModal = ({ handleClose, data }) => {
     <Backdrop onClick={handleClose}>
       <motion.div
         onClick={(e) => e.stopPropagation()}
-        className="c-modal"
+        className="c-modal c-modal--short"
       >
         <img src={close} alt="close-img" className='c-close-icon' onClick={handleClose} />
         <img src={data.icon} alt="image" className="c-modal-img c-modal-img__short" />

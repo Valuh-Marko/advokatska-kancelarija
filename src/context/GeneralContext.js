@@ -2,6 +2,7 @@ import React from "react";
 import davor from "../assets/images/davor-maric.webp";
 import milan from "../assets/images/milan-nedic.webp";
 import dijana from "../assets/images/dijana-biro.webp";
+import dunja from "../assets/images/dunja.webp";
 import greekInterior from "../assets/images/greek-interior.webp";
 import ladyJustice from "../assets/images/lady-justice.webp";
 import library from "../assets/images/library.webp";
@@ -58,6 +59,14 @@ export const GeneralProvider = ({ children }) => {
       desc: `Advokat Dijana Biro rođena je 1991. godine u Kikindi. Nakon završetka gimnazije „Dušan Vasiljev“ u Kikindi, upisuje Pravni fakultet za privredu i pravosuđe u Novom Sadu, na kom je i diplomirala 2014. godine. Tokom studiranja učestvovala je na takmičenju u besedništvu, i uspešno završila kurseve sa temama „Imovinski odnosi bračnih i vanbračnih partnera“ i „Metodologija izrade presude u parničnom postupku“. Po završetku studija, pripravničku vežbu obavlja u Višem sudu u Novom Sadu, radeći u svojstvu sudijskog pripravnika na prvostepenom krivičnom i  prvostepenom parničnom odeljenju, drugostepenom parničnom odeljenju, kao i na odeljenju za maloletnike. Pravosudni ispit ispit polaže 2018. godine, a advokatski ispit 2019. godine, koje godine i osniva  svoju advokatsku kancelariju. Dijana Biro poseduje sertifikat za odbranu maloletnih učinilaca krivičnih dela i zastupanje maloletnih lica oštećenih krivičnim delima.`,
       email: "adv.birodijana@gmail.com",
       phone: "38163650603",
+    },
+  ];
+  const interns = [
+    {
+      title: "Advokatski Pripravnik",
+      name: "Dunja Ušjak",
+      img: dunja,
+      desc: `Dunja Ušjak rođena je 1993. godine u Novom Sadu. Nakon završetka Gimnazije " Svetozar Marković", u Novom Sadu, upisuje Pravni fakultet u Novom Sadu, smer unutrašnjih poslova čiju diplomu stiče 2020. godine. Tokom studiranja učestvoala je na Javnopravnoj sekciji u oblasti upravnog prava. Poseduje sertifikat Osnovi programiranja i sertifikat programa Rezilijentnost- ključ uspeha u teškim situacijama. Pored maternjeg jezika govori engleski a služi se i španskim. Trenutno obavlja pripravničku vežbu kod advokata Milana Nedića.`,
     },
   ];
   const latinSayings = [
@@ -188,7 +197,7 @@ export const GeneralProvider = ({ children }) => {
 
   return (
     <GeneralContext.Provider
-      value={{ ourTeam, latinSayings, values, fieldsOfWork }}
+      value={{ ourTeam, latinSayings, values, fieldsOfWork, interns }}
     >
       {children}
     </GeneralContext.Provider>
