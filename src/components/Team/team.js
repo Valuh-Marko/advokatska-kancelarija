@@ -37,7 +37,12 @@ export const Team = () => {
                   setModalData(index);
                 }}
               >
-                <img className="c-member__image" src={member.img} alt="img" />
+                <img
+                  className="c-member__image"
+                  src={member.img}
+                  alt="img"
+                  loading="lazy"
+                />
               </div>
             );
           })}
@@ -64,6 +69,7 @@ export const Team = () => {
                     alt="teamMember"
                     src={member.logo}
                     className="c-member__logo"
+                    loading="lazy"
                   ></img>
                 </div>
                 <motion.p className="c-member__desc" variants={heightMotion}>

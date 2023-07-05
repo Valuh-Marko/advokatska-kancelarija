@@ -13,7 +13,7 @@ export const Modal = ({ handleClose, data }) => {
         className="c-modal"
       >
         <img src={close} alt="close-img" className='c-close-icon' onClick={handleClose} />
-        <img src={data.img} alt="image" className="c-modal-img" />
+        <img src={data.img} alt="image" className="c-modal-img" loading="lazy" />
         <div className="c-modal-text-container">
           <h2 className="c-modal-title">{data.name}</h2>
           <h5 className='c-modal-subtitle'>{data.title}</h5>
@@ -52,7 +52,7 @@ export const ArticlesModal = ({ handleClose, data }) => {
         className="c-modal c-modal--article"
       >
         <img src={close} alt="close-img" className='c-close-icon' onClick={handleClose} />
-        <img src={data.img} alt="image" className="c-modal-img" />
+        <img src={data.img} alt="image" className="c-modal-img" loading="lazy" />
         <div className="c-modal-text-container">
           <h2 className="c-modal-title">{data.title}</h2>
           <p className="c-modal-desc">{data.desc}</p>

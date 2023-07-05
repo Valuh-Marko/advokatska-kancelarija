@@ -29,7 +29,7 @@ export const Interns = () => {
                 setModalData(intern);
               }}
             >
-              <img src={intern.img} alt="" className="c-intern__image" />
+              <img src={intern.img} alt="" className="c-intern__image" loading="lazy" />
               <h3 className="c-intern__name">{intern.name}</h3>
               <p className="c-intern__title">{intern.title}</p>
               <p className="c-intern__desc">{intern.desc}</p>

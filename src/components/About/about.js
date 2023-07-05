@@ -21,7 +21,12 @@ export const About = () => {
             interesima zakonitosti i pravde.
           </p>
         </div>
-        <img className="c-about-img" src={aboutImg} alt="about" />
+        <img
+          className="c-about-img"
+          src={aboutImg}
+          alt="about"
+          loading="lazy"
+        />
       </div>
     </>
   );

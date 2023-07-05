@@ -72,7 +72,7 @@ export const FieldsOfWork = () => {
                 setModalData(work);
               }}
             >
-              <img className='c-field-of-work__icon' src={work.icon} alt="icon" />
+              <img className='c-field-of-work__icon' src={work.icon} alt="icon" loading="lazy" />
               <h3 className="c-field-of-work__title">{work.title}</h3>
               <p className="c-field-of-work__desc">{work.desc}</p>
             </div>

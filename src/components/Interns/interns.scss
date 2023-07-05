@@ -120,6 +120,7 @@
   margin-left: 1.25rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 2.5rem;
 
   @include breakpoint {
