@@ -41,10 +41,6 @@ export const Header = ({ isArticles }) => {
       <header ref={header} className="c-header">
         <Link href="#" className="c-logo-wrapper" to="/advokatska-kancelarija">
           <Logo customClass="c-icon c-icon--logo" />
-          <h3 className="c-logo">ADVOKATI</h3>
-          <p className="c-sublogo">
-            iz <span>Novog Sada</span>
-          </p>
         </Link>
         <nav className="c-header-nav-wrapper c-header-nav-wrapper--desktop">
           <ul className="c-header-nav">
@@ -57,7 +53,7 @@ export const Header = ({ isArticles }) => {
                   O Nama
                 </a>
                 <a href="#services" className="c-header__link">
-                  Naše Usluge
+                  Oblasti Rada
                 </a>
                 <a href="#our-team" className="c-header__link">
                   Upoznaj naš tim
@@ -123,7 +119,7 @@ export const Header = ({ isArticles }) => {
                       href="#services"
                       className="c-header__link"
                     >
-                      Naše Usluge
+                      Oblasti Rada
                     </motion.a>
                     <motion.a
                       variants={slideInFade}

@@ -16,7 +16,10 @@ export const Footer = () => {
             <span>Kontakt</span>
           </h5>
           <a className="c-footer__adress">
-            <GrLocation color="white" /> Maksima Gorkog 10a
+            <GrLocation color="white" />
+            <a target="_blank" href="https://goo.gl/maps/VPgfCqgWRgXRG9UWA">
+              Maksima Gorkog 10A
+            </a>
           </a>
           <a className="c-footer__city">
             <BsFillHouseDoorFill /> 21000 Novi Sad
@@ -25,10 +28,10 @@ export const Footer = () => {
         {ourTeam.map((member, index) => (
           <div key={index} className="c-footer__team-member">
             <h5 className="c-footer__title">{member.name}</h5>
-            <a className="c-footer__email" href={`mailto: ${member.email}`}>
+            <a className="c-footer__email" href={`mailto:${member.email}`}>
               <GrMail /> {member.email}
             </a>
-            <a className="c-footer__phone" href={`tel: ${member.email}`}>
+            <a className="c-footer__phone" href={`tel:${member.email}`}>
               <AiFillPhone />+{member.phone}
             </a>
           </div>

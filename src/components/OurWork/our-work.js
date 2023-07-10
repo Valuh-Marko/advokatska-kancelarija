@@ -11,7 +11,7 @@ export const OurWork = () => {
     <>
       <div className="c-our-work" id="services">
         <h2 className="c-out-work__heading">
-          Stavljamo Vaše pravne potrebe <br /> na prvo mesto
+          Ovo su naša načela zastupanja klijenata
         </h2>
         <DividerCenter />
         <div className="c-our-work__content-holder">
