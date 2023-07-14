@@ -121,7 +121,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2.5rem;
+  gap: .5rem;
+
+  &.c-interns__register--under {
+    grid-column: span 3;
+    margin-left: 0;
+  }
+
+  &.c-interns__register--mail {
+    a {
+      color: $alabaster;
+      text-decoration: underline;
+    }
+  }
 
   @include breakpoint {
     margin-top: 1.25rem;
@@ -130,5 +142,6 @@
 
 .c-interns__register-title {
   @extend .c-interns__title;
+  margin-bottom: 2rem;
   padding-left: 0;
 }
