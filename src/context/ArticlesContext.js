@@ -5,6 +5,7 @@ import image3 from "../assets/images/image3.webp";
 import image4 from "../assets/images/image4.webp";
 import image5 from "../assets/images/image5.webp";
 import image6 from "../assets/images/image6.webp";
+import image7 from "../assets/images/image7.webp";
 
 const ArticlesContext = React.createContext();
 
@@ -188,6 +189,41 @@ export const ArticlesProvider = ({ children }) => {
       Za praćenje propisa i postupak otvaranje firme je preporuka da se angažuje advokat
       da bi se postupak sproveo brzo i efikasno.`,
       image: image6,
+    },
+    {
+      title: "Nasilje u porodici",
+      desc: `Kada se govori o nasilju u porodici najčešća pomisao je fizičko nasilje jednog člana porodice nad drugim članom. Međutim, bitno je napomenuti da se pod nasiljem u porodici, a u smislu Porodičnog zakona, podrazumeva svako ponašanje kojim jedan član porodice integritet duševno zdravlje ili spokojstvo drugog člana porodice. Dakle, pod nasiljem u porodici podrazumeva se, pored nanošenja ili povreda, i izazivanje straha pretnjom ubistva ili nanošenja telesnih povreda članu porodice ili njemu bliskom licu, prisiljavanje na seksualni odnos navođenje na seksualni odnos ili seksualni odnos sa licem koje nije navršilo 14 godina života ili nemoćnim lice, ograničavanje komuniciranja sa trećim licima, vređanje, kao i svako drugo drsko, bezobzirno i zlonamerno ponašanje.
+
+      Pod članovima porodice ne smatraju se samo supružnici, deca, roditelji i ostali krvni srodnici kao što većina misli, već i supružnici tazbinskom ili adoptivnom srodstvu, odnosno lica koja vezuje hraniteljstvo, lica koja žive ili su živela u istom porodičnom domaćinstvu kao i vanbračni ili bivši vanbračni partneri i lica koja su međusobno bila ili su još uvek u emotivnoj ili seksualnoj vezi, odnosno zajedničko dete ili je dete na putu da bude rođeno, iako nikad nisu živela u istom porodičnom domaćinstvu. Dakle, sva nabrojana lica članove porodice u smislu Porodičnog zakona i ista su jedna od drugih zaštićena od nasilja u porodici, odnosno ista mogu odgovarati za krivično delo nasilje u porodici. Ukoliko trpite bilo koji vid nasilja u porodici prijavite policiji/javnom tužiocu ili kontaktirajte nas kako bismo to učinili umesto Vas i kako bismo vam pružili potrebnu pravnu zaštitu.
+
+      Pored podnošenja krivične prijave protiv lica koje vrši nasilje u porodice, može se voditi i parnični postupak radi zaštite od nasilja porodici.
+
+      Parnični postupak radi zaštite od nasilja u porodici
+
+      U parničnom postupku Sud na osnovu podnete tužbe može odrediti jednu ili više mera zaštite od nasilja u porodici, i to:
+      - izdavanje naloga za iseljenje iz porodičnog stana ili kuće, bez obzira na pravo svojine odnosno zakupa nepokretnosti; 
+      - izdavanje naloga za useljenje u porodični stan ili kuću, bez obzira na pravo svojine odnosno zakupa nepokretnosti;
+      - zabrana približavanja članu porodice na određenoj udaljenosti;
+      - zabrana pristupa u prostor oko mesta stanovanja ili mesta rada člana porodice;
+      - zabrana daljeg uznemiravanja člana porodice.
+
+      Ukoliko Vam je radi zaštite od nasilja u porodici neophodno određivanje neke od nabrojanih mera, naš tim advokata Vam može pomoći da zaštitu ishodujete.
+      Mera zaštite od nasilja u porodici može trajati najviše godinu dana, s tim što se može produžavati sve dok ne prestanu razlozi zbog određena.
+      Takođe, mera zaštite od nasilja u porodici može prestati pre isteka vremena trajanja ako prestanu razlozi zbog kojih je mera bila određena.
+
+      Postupak nakon prijave nasilja u porodici:
+
+      Zakonom o sprečavanju nasilja u porodici propisan je način postupanja svakog organa nakon prijave.
+      Policijski službenici su dužni da odmah obaveste nadležnog policijskog službenika o svakom nasilju u porodici ili neposrednoj opasnosti od njega, i imaju pravo da sami ili na zahtev nadležnog policijskog službenika dovedu mogućeg učinioca u nadležnu jedinicu policije radi vođenje postupka.
+      Zadržavanje mogućeg učinioca u nadležnoj organizacionoj jedinici policije radi vođenja postupka može trajati najduže osam časova, u toku kojeg zadržavanja mogući učinilac mora biti poučen o pravima, te mu se mora omogućiti kontakt i korićenje pravne pomoći branioca.
+      Nadležni policijski službenik mora mogućem učiniocu koji je doveden da pruži priliku da se izjasni o svim bitnim činjenicama, i da odmah proceni rizik neposredne opasnosti od nasilja u porodici. Ukoliko utvrdi da postoji rizik,  može naredbom izreći hitnu meru privremenog udaljenja učinioca iz stana i/ili meru privremene zabrane učiniocu da kontaktira žrtvu nasilja i prilazi joj.
+      Javni tužilac vrednuje procenu rizika nadležnog policijskog službenika i donesi odluku o tome da li će podneti predlog sudu da se hitna mera produži, a koji predlog podnosi u roku od 24 časa od uručenja naređenja licu kome je izrečena mera. 
+      Hitna mera izrečena od strane nadležnog policijskog službenika traje 48 časova od uručenja naređenja, a na predlog javnog tužioca, Sud može hitnu meru produžiti za još 30 dana.
+      Ukoliko je potrebno hitno reagovati, naš tim advokata može Vam pomoći da dobijete neku od hitnih mera za zaštitu od nasilja.
+      Ukoliko ranije izrečena mera više nije potrebna, možemo Vam pomoći i u postupku ukidanja iste.
+      Nakon donošenja Zakona o sprečavanju nasilja u porodici dešavao se i veliki broj zloupotreba i lažnih prijava nasilja u porodici. U krivičnom postupku naš tim advokata može Vam pomoći da se odbranite od lažnih prijava za nasilje u porodici, kao i u parničnom postupku u kom je protiv Vas podneta tužba radi zaštite od nasilja u porodici.
+      `,
+      image: image7,
     },
   ];
 

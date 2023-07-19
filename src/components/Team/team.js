@@ -21,7 +21,7 @@ export const Team = () => {
     <>
       <div className="c-team">
         <FieldsOfWork />
-        <h2 className="c-team__title">Upoznajte naš pravni tim</h2>
+        <h2 className="c-team__title">Upoznajte naš tim</h2>
         <DividerSide />
         <div className="c-team__holder" id="our-team">
           {ourTeam.map((member, index) => {

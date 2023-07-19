@@ -1,5 +1,5 @@
 import { AnimatePresence } from 'framer-motion';
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 import { useContext } from 'react'
 import GeneralContext from '../../context/GeneralContext'
 import { Modal } from "../Modal/modal";
@@ -40,36 +40,21 @@ export const Interns = () => {
 
         <div className="c-interns__register">
           <h2 className="c-interns__register-title">Želiš da apliciraš za pripravničko mesto?</h2>
-          <p className="c-interns__register-desc">Pripravnička zakletva glasi:</p>
-          <p className="c-interns__register-desc">&quot;Zaklinjem se da ću dužnost advokatskog pripravnika obavljati savesno, da ću se u svom
-            radu pridržavati ustava, zakona i drugih propisa, statuta advokatske komore i kodeksa
-            profesionalne etike advokata i da ću svojim postupcima i ponašanjem čuvati ugled advokature.&quot;</p>
-          <p className="c-interns__register-desc">Advokatski pripravnikje diplomirani pravnik upisan u imenik advokatskih pripravnika, koji
+          <p className="c-interns__register-desc">Advokatski pripravnik je diplomirani pravnik upisan u imenik advokatskih pripravnika, koji
             se obavljanjem pripravničke vežbe kod advokata, osposobljava za rad u advokaturi shodno Zakonu
             o advokaturi.
           </p>
-          <p className="c-interns__register-desc">Advokat koji ima advokatskog pripravnika dužan je da mu obezbedi odgovarajuće uslove za
-            rad i obuku u skladu sa svrhom pripravničke prakse, da sprovodi plan i program obuke i da nadzire
-            njegov rad i stručno usavršavanje.</p>
-          <p className="c-interns__register-desc">Advokatski pripravnik može da započne obavljanje pripravničke vežbe ako je upisan u
-            imenik advokatskih pripravnika i ako je položio zakletvu advokatskog pripravnika.</p>
           <p className="c-interns__register-desc">Pravosudni ispit može polagati lice koje je diplomiralo na pravnom fakultetu i koje je posle
             završenog pravnog fakulteta steklo dve godine radnog iskustva na poslovima pravne struke u
-            advokaturi.</p>
-        </div>
-        <div className="c-interns__register c-interns__register--under">
-          <p className="c-interns__register-desc">Svakih šest meseci radnog iskustva na poslovima pravne struke u sudu, javnom tužilaštvu,
-            javnom pravobranilaštvu i advokaturi računa se kao devet meseci radnog iskustva na poslovima
-            pravne struke u organu za prekršaje, drugom državnom organu, organu teritorijalne autonomije i
-            lokalne samouprave, odnosno kao jedna godina radnog iskustva na poslovima pravne struke u
-            preduzeću, ustanovi ili drugoj organizaciji.</p>
+            advokaturi.
+          </p>
           <p className="c-interns__register-desc">Ukoliko želite da budete advokatski pripravnik i da obavljate advokatsku pripravničku
             vežbu u našoj kancelariji pošaljite CV na neki od sledećih mailova:</p>
-        </div>
-        <div className="c-interns__register c-interns__register--under c-interns__register--mail">
-          <a href='mailto: adv.davormaric@gmail.com' className="c-interns__register-desc">adv.davormaric@gmail.com</a>
-          <a href='mailto: nedicmilan9@gmail.com' className="c-interns__register-desc">nedicmilan9@gmail.com</a>
-          <a href='mailto: adv.birodijana@gmail.com' className="c-interns__register-desc">adv.birodijana@gmail.com</a>
+          <div className="c-interns__register-desc c-interns__register-desc--mail">
+            <a href='mailto: adv.davormaric@gmail.com' className="c-interns__register-desc">adv.davormaric@gmail.com</a>
+            <a href='mailto: nedicmilan9@gmail.com' className="c-interns__register-desc">nedicmilan9@gmail.com</a>
+            <a href='mailto: adv.birodijana@gmail.com' className="c-interns__register-desc">adv.birodijana@gmail.com</a>
+          </div>
         </div>
       </div>
 

@@ -150,6 +150,7 @@
   color: $alabaster;
   overflow: auto;
   max-height: 100%;
+  white-space: pre-line;
 
   &::-webkit-scrollbar {
     display: none;

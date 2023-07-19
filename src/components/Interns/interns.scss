@@ -115,6 +115,14 @@
   overflow: hidden;
 }
 
+.c-interns__register-desc {
+  &.c-interns__register-desc--mail {
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+  }
+}
+
 .c-interns__register {
   grid-column: span 2;
   margin-left: 1.25rem;
@@ -123,16 +131,9 @@
   justify-content: center;
   gap: .5rem;
 
-  &.c-interns__register--under {
-    grid-column: span 3;
-    margin-left: 0;
-  }
-
-  &.c-interns__register--mail {
-    a {
-      color: $alabaster;
-      text-decoration: underline;
-    }
+  a {
+    color: $alabaster;
+    text-decoration: underline;
   }
 
   @include breakpoint {
