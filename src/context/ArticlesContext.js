@@ -18,176 +18,94 @@ export const ArticlesProvider = ({ children }) => {
     },
     {
       title: "Naplata duga po osnovu računa - faktura",
-      desc: `Naplata potraživanja po osnovu računa ili faktura za isporučene proizvode ili pruženu
-      uslugu predstavlja u nekim situacijama problem za svako lice koje se bavi prodajom ili
-      pružanjem usluga. Republika Srbija ima određene propise koji regulišu ovu oblast i pružaju
-      okvir za efikasnu naplatu potraživanja.
-      Prvi korak u naplati potraživanja je ispostavljanje jasnih i preciznih računa ili faktura
-      drugoj strani, kupcima. Račun ili faktura treba sadržati sve relevantne informacije, kao što su
-      naziv i adresa prodavca i kupca, detaljan opis proizvoda ili usluga, količina, cena, datum
-      izdavanja, rok plaćanja i detalji za uplatu.
-      Kada dođe do kašnjenja ili neplaćanja računa, lice koje je isporučilo fakturu treba da
-      preduzme odgovarajuće korake u skladu sa zakonskim propisima kako bi obezbedilo
-      izvršenje obaveze po osnovu isporučenih računa.
-      Prva mera koju lice mora da preduzme je da obavesti drugu stranu, kupca da postoji
-      neplaćeni račun. Najčešće se druga strana obaveštava slanjem opomene u pisanoj formi,
-      kojom se ukazuje na dospelu obavezu za plaćanje. Opomena treba biti jasna, mora da sadrži
-      relevantne informacije o potraživanju i mora se ostaviti rok drugoj strani za dobrovoljno
-      izvršenje plaćanja računa.
-      Ukoliko druga strana, kupac ne izvrši plaćanje ni nakon opomene, ispunjeni su uslovi
-      i može se pokrenuti sudski postupak radi naplate potraživanja. Sudski postupak može
-      uključivati podnošenje tužbe protiv kupca ili pokretanje izvršnog postupka. U ovoj fazi, važno
-      je imati adekvatnu dokumentaciju, kao što su originalni ugovori, računi, fakture ili druge
-      relevantne dokaze o poslovnoj transakciji.
-      Sudska presuda u korist poverioca omogućava sprovođenje izvršnog postupka, koji
-      podrazumeva prinudnu naplatu potraživanja koje se sprovodi putem Javnih izvršitelja.
-      Međutim, postupak naplate potraživanja može da se pokrene i samo na osnovu računa koji
-      su sastavljeni shodno zakonskim propisima, a koji treba da budu u originalu ili kopiji vernoj
-      originalu, jer oni predstavljaju verodostojnu ispravu po osnovu koje je moguće pokrenuti
-      postupak prinudne naplate potraživanja. Na taj način se može izbeći višegodišnje vođenje
-      sudskog postupka i odugvlačenje naplate neplaćenih računa.
-      Moramo istaći da brzina i način naplate potraživanja varira od slučaja do slučaja i na
-      isto utiče više faktora.
-      Važno je naglasiti da je savetovanje sa advokatom od ključne važnosti u ovom
-      procesu, kako bi se izvršila provera dokumentacije koje poverilac poseduje, dala procena
-      uspešnosti naplate, a sve u cilju osiguranja poštovanja svih zakonskih propisa i pravila koja
-      se odnose na naplatu potraživanja.`,
+      desc: `Naplata potraživanja po osnovu računa ili faktura za isporučene proizvode ili pruženu uslugu predstavlja u nekim situacijama problem za svako lice koje se bavi prodajom ili pružanjem usluga. Republika Srbija ima određene propise koji regulišu ovu oblast i pružaju okvir za efikasnu naplatu potraživanja.
+
+      Prvi korak u naplati potraživanja je ispostavljanje jasnih i preciznih računa ili faktura drugoj strani, kupcima. Račun ili faktura treba sadržati sve relevantne informacije, kao što su naziv i adresa prodavca i kupca, detaljan opis proizvoda ili usluga, količina, cena, datum izdavanja, rok plaćanja i detalji za uplatu.
+
+      Kada dođe do kašnjenja ili neplaćanja računa, lice koje je isporučilo fakturu treba da preduzme odgovarajuće korake u skladu sa zakonskim propisima kako bi obezbedilo izvršenje obaveze po osnovu isporučenih računa.
+
+      Prva mera koju lice mora da preduzme je da obavesti drugu stranu, kupca da postoji neplaćeni račun. Najčešće se druga strana obaveštava slanjem opomene u pisanoj formi, kojom se ukazuje na dospelu obavezu za plaćanje. Opomena treba biti jasna, mora da sadrži relevantne informacije o potraživanju i mora se ostaviti rok drugoj strani za dobrovoljno izvršenje plaćanja računa.
+
+      Ukoliko druga strana, kupac ne izvrši plaćanje ni nakon opomene, ispunjeni su uslovi i može se pokrenuti sudski postupak radi naplate potraživanja. Sudski postupak može uključivati podnošenje tužbe protiv kupca ili pokretanje izvršnog postupka. U ovoj fazi, važno je imati adekvatnu dokumentaciju, kao što su originalni ugovori, računi, fakture ili druge relevantne dokaze o poslovnoj transakciji.
+
+      Sudska presuda u korist poverioca omogućava sprovođenje izvršnog postupka, koji podrazumeva prinudnu naplatu potraživanja koje se sprovodi putem Javnih izvršitelja. Međutim, postupak naplate potraživanja može da se pokrene i samo na osnovu računa koji su sastavljeni shodno zakonskim propisima, a koji treba da budu u originalu ili kopiji vernoj originalu, jer oni predstavljaju verodostojnu ispravu po osnovu koje je moguće pokrenuti postupak prinudne naplate potraživanja. Na taj način se može izbeći višegodišnje vođenje sudskog postupka i odugvlačenje naplate neplaćenih računa.
+
+      Moramo istaći da brzina i način naplate potraživanja varira od slučaja do slučaja i na isto utiče više faktora.
+      Važno je naglasiti da je savetovanje sa advokatom od ključne važnosti u ovom procesu, kako bi se izvršila provera dokumentacije koje poverilac poseduje, dala procena uspešnosti naplate, a sve u cilju osiguranja poštovanja svih zakonskih propisa i pravila koja se odnose na naplatu potraživanja.
+      `,
       image: image5,
     },
     {
       title: "Nezakonit otkaz",
-      desc: `U Republici Srbiji, Zakon o radu predviđa i reguliše prava i obaveze zaposlenih i
-      poslodavaca u vezi sa prekidom radnog odnosa. Svaki prekid radnog odnosa koji je u
-      suprotnosti sa odredbama Zakona o radu predstavlja „Nezakonit otkaz“.
-      Najčešće poslodavci prekidaju radni odnos za zaposlenima na način koji nije
-      predviđen odredbama zakonskih propisa.
-      Prema Zakonu o radu, poslodavac može prekinuti radni odnos samo u određenim
-      situacijama koje su predviđene zakonom. Poslodavac je dužan da poštuje propisane
-      procedure i pruži zaposlenom pravnu zaštitu.
-      Ukoliko poslodavac prekine radni odnos na nezakonit način, zaposleni ima pravo da
-      pokrene postupak za zaštitu svojih prava. Prvi korak je često pokušaj rešavanja spora kroz
-      mirno i pregovaračko rešenje, kao što je razgovor sa poslodavcem ili posredovanje nadležnih
-      organa. Ukoliko se ne postigne sporazum, zaposleni može pokrenuti radni spor pred
-      nadležnim sudom.
-      Moramo napomenuti da je zakonom predviđen rok u kojem mora da se pokrene
-      sudski postupak radi poništaja nezakonitog otkaza. Taj rok iznosi 60 dana od dana prijema
-      rešenja o otkazu ugovora o radu. U slučaju da zaposleni u roku od 60 dana od dana prijema
-      rešenja o otkazu ugovora o radu ne pokrene odgovarajući sudski postupak radi poništaja
-      otkaza ugovora o radu, zaposleni gubi pravo na sudsku zaštitu.
-      U sudskom postupku Sud razmatra sve relevantne činjenice i dokaze u vezi sa
-      otkazom i donosu odluku na osnovu utvrđenih činjeica u skladu sa zakonom. Ukoliko sud
-      utvrdi da je otkaz bio nezakonit, poslodavac može da ima obavezu vraćanja zaposlenog na
-      posao, isplatu odgovarajuće nadoknade za izgubljenu zaradu tokom nezakonitog otkaza, kao
-      i druge pravne ili finansijske obaveze.
-      Važno je napomenuti da je svaki slučaj nezakonitog otkaza jedinstven i zahteva
-      individualnu procenu u skladu sa konkretnim okolnostima. Konsultacija sa advokatom
-      specijalizovanim za radno pravo može biti od velike koristi kako bi se ostvarila prava
-      zaposlenog i zaštitilo od nezakonitog postupanja poslodavca.`,
+      desc: `U Republici Srbiji, Zakon o radu predviđa i reguliše prava i obaveze zaposlenih i poslodavaca u vezi sa prekidom radnog odnosa. Svaki prekid radnog odnosa koji je u suprotnosti sa odredbama Zakona o radu predstavlja „Nezakonit otkaz“.
+      Najčešće poslodavci prekidaju radni odnos za zaposlenima na način koji nije predviđen odredbama zakonskih propisa.
+
+      Prema Zakonu o radu, poslodavac može prekinuti radni odnos samo u određenim situacijama koje su predviđene zakonom. Poslodavac je dužan da poštuje propisane procedure i pruži zaposlenom pravnu zaštitu.
+
+      Ukoliko poslodavac prekine radni odnos na nezakonit način, zaposleni ima pravo da pokrene postupak za zaštitu svojih prava. Prvi korak je često pokušaj rešavanja spora kroz mirno i pregovaračko rešenje, kao što je razgovor sa poslodavcem ili posredovanje nadležnih organa. Ukoliko se ne postigne sporazum, zaposleni može pokrenuti radni spor pred nadležnim sudom.
+
+      Moramo napomenuti da je zakonom predviđen rok u kojem mora da se pokrene sudski postupak radi poništaja nezakonitog otkaza. Taj rok iznosi 60 dana od dana prijema rešenja o otkazu ugovora o radu. U slučaju da zaposleni  u roku od 60 dana od dana prijema rešenja o otkazu ugovora o radu ne pokrene odgovarajući sudski postupak radi poništaja otkaza ugovora o radu, zaposleni gubi pravo na sudsku zaštitu.
+      U sudskom postupku Sud razmatra sve relevantne činjenice i dokaze u vezi sa otkazom i donosu odluku na osnovu utvrđenih činjeica u skladu sa zakonom. Ukoliko sud utvrdi da je otkaz bio nezakonit, poslodavac može da ima obavezu vraćanja zaposlenog na posao, isplatu odgovarajuće nadoknade za izgubljenu zaradu tokom nezakonitog otkaza, kao i druge pravne ili finansijske obaveze.
+
+      Važno je napomenuti da je svaki slučaj nezakonitog otkaza jedinstven i zahteva individualnu procenu u skladu sa konkretnim okolnostima. Konsultacija sa advokatom specijalizovanim za radno pravo može biti od velike koristi kako bi se ostvarila prava zaposlenog i zaštitilo od nezakonitog postupanja poslodavca.
+      `,
       image: image2,
     },
     {
       title: "Otkaz ugovora o radu od strane zaposlenog",
-      desc: `Otkaz ugovora o radu od strane zaposlenog predstavlja jedan od načina prestanka
-      radnog odnosa u smislu Zakona o radu Republike Srbije.
-      Konkretno u pitanju je jednostrani raskid radnog odnosa od strane zaposlenog.
-      Zaposleni ima pravo da otkaže ugovor o radu u skladu sa Zakonom o radu Republike Srbije i
-      uslovima koji su propisani zakonom, Opštim aktom poslodavca ili ugovorom o radu koji je
-      zaposleni sklopio sa poslodavcem.
-      Način za raskid ugovora o radu od strane zaposlenog je podnošenje pisanog otkaza
-      poslodavcu.
-      Otkaz treba da bude u pisanom obliku i jasno izražen, da sadrži datum podnošenja,
-      razloge otkaza i željeni datum prestanka radnog odnosa. Takođe, preporučljivo je da
-      zaposleni sačuva kopiju otkaza kao i dokaz o podnošenju istog poslodavcu.
-      Otkaz od strane zaposlenog mora biti podnet poslodavcu svojevoljno, bez ikakve
-      zablude, prinude ili drugih mana volja.
-      Otkaz koji zaposleni daje u pisanoj formi mora da sadrži i „Otkazni rok“. Otkazni rok
-      predstavlja period koji zaposleni mora da nastavi da radi kod poslodavca nakon podnošenja
-      otkaza, a čija dužina trajanja zavisi od više faktora i propisana je zakonom, kolektivnim
-      ugovorom ili ugovorom o radu. Otkazni rok može biti i dogovoren između poslodavca i
-      zaposlenog, ali ne sme biti kraći od zakonom propisanog minimalnog otkaznog roka, niti duži
-      od zakonom propisanog maksimalnog roka.
-      Nakon podnošenja otkaza, zaposleni ima pravo na isplatu svih neisplaćenih zarada,
-      godišnjeg odmora, naknade za prekovremeni rad ili druge dospele beneficije. Poslodavac je
-      dužan da izvrši obračun i isplati sve dugove prema zaposlenom u zakonom propisanom roku
-      i shodno pozitivnim propisima.
-      Važno je da zaposleni pre odluke o raskidu radnog odnosa bude upoznat sa
-      odredbama ugovora o radu, opštim aktom poslodavca i zakonskim propisima vezanim za
-      otkazivanje ugovora o radu od strane zaposlenog kako bi poznavao i zaštitio svoja prava i
-      obaveze prilikom podnošenja otkaza.
-      U ovakvim situacijama se uvek preporučuje konsultovanje advokata kako bi se radnik
-      maksimalno zašitio prilikom raskida radnog odnosa.`,
+      desc: `Otkaz ugovora o radu od strane zaposlenog predstavlja jedan od načina prestanka radnog odnosa u smislu Zakona o radu Republike Srbije.
+
+      Konkretno u pitanju je jednostrani raskid radnog odnosa od strane zaposlenog. Zaposleni ima pravo da otkaže ugovor o radu u skladu sa Zakonom o radu Republike Srbije i uslovima koji su propisani zakonom,  Opštim aktom poslodavca ili ugovorom o radu koji je zaposleni sklopio sa poslodavcem.
+
+      Način za raskid ugovora o radu od strane zaposlenog je podnošenje pisanog otkaza poslodavcu. 
+
+      Otkaz treba da bude u pisanom obliku i jasno izražen, da sadrži datum podnošenja, razloge otkaza i željeni datum prestanka radnog odnosa. Takođe, preporučljivo je da zaposleni sačuva kopiju otkaza kao i dokaz o podnošenju istog poslodavcu.
+
+      Otkaz od strane zaposlenog mora biti podnet poslodavcu svojevoljno, bez ikakve zablude, prinude ili drugih mana volja.
+
+      Otkaz koji zaposleni daje u pisanoj formi mora da sadrži i „Otkazni rok“. Otkazni rok predstavlja period koji zaposleni mora da nastavi da radi kod poslodavca nakon podnošenja otkaza, a čija dužina trajanja zavisi od više faktora i propisana je zakonom, kolektivnim ugovorom ili ugovorom o radu. Otkazni rok može biti i dogovoren između poslodavca i zaposlenog, ali ne sme biti kraći od zakonom propisanog minimalnog otkaznog roka, niti duži od zakonom propisanog maksimalnog roka.
+
+      Nakon podnošenja otkaza, zaposleni ima pravo na isplatu svih neisplaćenih zarada, godišnjeg odmora, naknade za prekovremeni rad ili druge dospele beneficije. Poslodavac je dužan da izvrši obračun i isplati sve dugove prema zaposlenom u zakonom propisanom roku i shodno pozitivnim propisima.
+
+      Važno je da zaposleni pre odluke o raskidu radnog odnosa bude upoznat sa odredbama ugovora o radu, opštim aktom poslodavca i zakonskim propisima vezanim za otkazivanje ugovora o radu od strane zaposlenog kako bi poznavao i zaštitio svoja prava i obaveze prilikom podnošenja otkaza.
+
+      U ovakvim situacijama se uvek preporučuje konsultovanje advokata kako bi se radnik maksimalno zašitio prilikom raskida radnog odnosa.
+      `,
       image: image3,
     },
     {
       title: "Naknada štete u slučaju povrede na radu",
-      desc: `Naknada štete u slučaju povrede na radu predstavlja pravo radnika da zahteva
-      nadoknadu za štetu koju je pretrpeo usled povrede ili bolesti nastale na radu ili u vezi sa
-      radom. Ovo pravo je regulisano Zakonom o radu Republike Srbije, Zakonom o zdrastvenom
-      osiguranju Republike Srbije, Zakonom o bezbednosti i zdravlju na radu i drugim pozitivnim
-      propisima.
-      Kada radnik pretrpi povredu na radu ili oboli od profesionalne bolesti, prvi korak je
-      prijavljivanje povrede ili bolesti poslodavcu. Poslodavac je dužan da prijavi povredu ili bolest
-      nadležnom organu za radnu inspekciju i osiguravajućem društvu sa kojim ima zaključen
-      ugovor o osiguranju od povreda na radu i profesionalnih bolesti.
-      Izveštaj o povredi na radu i profesionalnom oboljenju koji se dogode na radnom
-      mestu, poslodavac je dužan da dostavi zaposlenom koji je pretrpeo povredu, kao i
-      organizacijama nadležnim za zdravstveno i penzijsko i invalidsko osiguranje
-      Nakon prijave, radnik ima pravo na lečenje i rehabilitaciju o trošku osiguranja, u
-      skladu sa zakonom i propisima o zdravstvenom osiguranju. Ukoliko povreda na radu ili
-      profesionalna bolest prouzrokuje privremenu sprečenost za rad, radnik ostvaruje pravo na
-      novčanu nadoknadu za vreme privremene sprečenosti, koja se isplaćuje u visini određenoj
-      propisima o osiguranju od povreda na radu.
-      Radnik ima pravo na naknadu nematerijalnu štetu za pretrpljene fizičke bolove,
-      duševne bolove, pretrpljeni strah, telesno oštećenje, narušeno zdravlje, smanjenje radne
-      sposobnosti i druge štetne posledice povrede ili bolesti. Visina naknade štete zavisi od težine
-      povrede ili bolesti, stepena invalidnosti, gubitka radne sposobnosti i drugih relevantnih
-      faktora.
-      Da bi ostvario pravo na naknadu štete, radnik treba da podnese zahtev poslodavcu ili
-      direktno osiguravajućem društvu koje pruža osiguranje od povreda na radu i profesionalnih
-      bolesti. Ukoliko postoji spor oko visine ili osnova isplate naknade štete, radnik može se
-      obratiti sudu radi zaštite svojih prava.
+      desc: `Naknada štete u slučaju povrede na radu predstavlja pravo radnika da zahteva nadoknadu za štetu koju je pretrpeo usled povrede ili bolesti nastale na radu ili u vezi sa radom. Ovo pravo je regulisano Zakonom o radu Republike Srbije, Zakonom o zdrastvenom osiguranju Republike Srbije, Zakonom o bezbednosti i zdravlju na radu i drugim pozitivnim propisima.
+
+      Kada radnik pretrpi povredu na radu ili oboli od profesionalne bolesti, prvi korak je prijavljivanje povrede ili bolesti poslodavcu. Poslodavac je dužan da prijavi povredu ili bolest nadležnom organu za radnu inspekciju i osiguravajućem društvu sa kojim ima zaključen ugovor o osiguranju od povreda na radu i profesionalnih bolesti.
+
+      Izveštaj o povredi na radu i profesionalnom oboljenju koji se dogode na radnom mestu, poslodavac je dužan da dostavi zaposlenom koji je pretrpeo povredu, kao i organizacijama nadležnim za zdravstveno i penzijsko i invalidsko osiguranje.
+      
+      Nakon prijave, radnik ima pravo na lečenje i rehabilitaciju o trošku osiguranja, u skladu sa zakonom i propisima o zdravstvenom osiguranju. Ukoliko povreda na radu ili profesionalna bolest prouzrokuje privremenu sprečenost za rad, radnik ostvaruje pravo na novčanu nadoknadu za vreme privremene sprečenosti, koja se isplaćuje u visini određenoj propisima o osiguranju od povreda na radu.
+
+      Radnik ima pravo na naknadu nematerijalnu štetu za pretrpljene fizičke bolove, duševne bolove, pretrpljeni strah, telesno oštećenje, narušeno zdravlje, smanjenje radne sposobnosti i druge štetne posledice povrede ili bolesti. Visina naknade štete zavisi od težine povrede ili bolesti, stepena invalidnosti, gubitka radne sposobnosti i drugih relevantnih faktora. 
+
+      Da bi ostvario pravo na naknadu štete, radnik treba da podnese zahtev poslodavcu ili direktno osiguravajućem društvu koje pruža osiguranje od povreda na radu i profesionalnih bolesti. Ukoliko postoji spor oko visine ili osnova isplate naknade štete, radnik može se obratiti sudu radi zaštite svojih prava.
+
       U praksi većina slučajeva naknade štete zbog povrede na radu završi na sudu.
-      Važno je napomenuti da je svaki slučaj povrede na radu ili profesionalne bolesti
-      jedinstven, te se uvek preporučuje konsultovanje i angažovanje advokata kako bi radnik
-      maksimalno zaštitio i ostvario svoja prava zbog povrede na radu.`,
+      Važno je napomenuti da je svaki slučaj povrede na radu ili profesionalne bolesti jedinstven, te se uvek preporučuje konsultovanje i angažovanje advokata kako bi radnik maksimalno zaštitio i ostvario svoja prava zbog povrede na radu.
+      `,
       image: image4,
     },
     {
       title: "Osnivanje firme",
-      desc: `Osnivanje firme predstavlja proces registracije pravnog lica koji ima za cilj obavljanje
-      određene privredne delatnosti i ostvarivanje poslovnih aktivnosti. Ovaj proces uključuje
-      nekoliko koraka i zahteva poštovanje zakonskih propisa i procedura.
-      Naš savet je da pre osnivanja firme detaljno proverite propise koje regulišu oblast u
-      kojoj će firma da posluje, da istražite tržište, analizirate konkurenciju, pripremite poslovni plan
-      i obezbediti neophodne resurse i kapital za pokretanje poslovanja.
-      Nakon toga, sledeći korak u osnivanju firme je odabir pravne forme preduzeća. U
-      Republici Srbiji postoje različite pravne forme, kao što su društvo sa ograničenom
-      odgovornošću (DOO), akcionarsko društvo (AD), preduzetnik, itd. Ova odluka zavisi od vrste
-      poslovanja kojom žeite da se bavite, ciljeva koje želite da ostvarite, kapitala kojim
-      raspolažete i drugih faktora.
-      Važno je napomenuti da svaka forma organizovanja firme nosi određene prednosti i
-      mane, koje morate imati u vidu prilikom odlučivanja o izboru pravne forme u kojoj želite da
-      bude vaša firma.
-      Kada odaberete pravnu formu u kojoj ćete da poslujete sa budućom firmom, sledi
-      registracija firme u Agenciji za privredne registre (APR).
-      Zahtev za registraciju podnosi se elektronski i obuhvata prikupljanje potrebne
-      dokumentacije, kao što su statut preduzeća, osnivački akt, rešenje o imenovanju direktora ili
-      zastupnika, izjava o prihvatanju funkcije direktora/zastupnika, itd. Takođe, potrebno je uplatiti
-      odgovarajuće takse i naknade za registraciju.
-      Uz registraciju u APR-u, često je potrebno i ishodovanje drugih dozvola i dozvoljenih
-      dokumenata, u zavisnosti od vrste delatnosti kojom želite da se buduća firma bavi. Na
-      primer, za određene delatnosti može biti potrebna posebna dozvola, poput dozvole za
-      obavljanje medicinske delatnosti ili dozvole za trgovinu određenom robom.
-      Takođe, prilikom osnivanja firme, potrebno je otvoriti poslovni račun kod banke, kao i
-      voditi računovodstvo i izveštavati nadležne organe o finansijskom stanju preduzeća.
-      Nakon podnošenja zahteva APR ukoliko je sva dokumentacija pripremljena kako
-      nalažu propisi, u kratkom roku donosi Rešenje o registraciji, te možete otpočeti sa Vašim
-      poslovanjem.
-      Važno je napomenuti da za pravna lica u Republici Srbiji važe određene obaveze
-      koje se moraju ispoštovati shodno pozitivnim propisima ( dostavljanje finansijskih, statističkih
-      izveštaja državnim institucijama).
-      Za praćenje propisa i postupak otvaranje firme je preporuka da se angažuje advokat
-      da bi se postupak sproveo brzo i efikasno.`,
+      desc: `Osnivanje firme predstavlja proces registracije pravnog lica koji ima za cilj obavljanje određene privredne delatnosti i ostvarivanje poslovnih aktivnosti. Ovaj proces uključuje nekoliko koraka i zahteva poštovanje zakonskih propisa i procedura. 
+      Naš savet je da pre osnivanja firme detaljno proverite propise koje regulišu oblast u kojoj će firma da posluje, da istražite tržište analizirate konkurenciju, pripremite poslovni plan i obezbediti neophodne resurse i kapital za pokretanje poslovanja.
+
+      Nakon toga, sledeći korak u osnivanju firme je odabir pravne forme preduzeća. U Republici Srbiji postoje različite pravne forme, kao što su društvo sa ograničenom odgovornošću (DOO), akcionarsko društvo (AD), preduzetnik, itd. Ova odluka zavisi od vrste poslovanja kojom žeite da se bavite, ciljeva koje želite da ostvarite, kapitala kojim raspolažete i drugih faktora.
+
+      Važno je napomenuti da svaka forma organizovanja firme nosi određene prednosti i mane, koje morate imati u vidu prilikom odlučivanja o izboru pravne forme u kojoj želite da bude vaša firma. Kada odaberete pravnu formu u kojoj ćete da poslujete sa budućom firmom, sledi registracija firme u Agenciji za privredne registre (APR).Zahtev za registraciju podnosi se elektronski i obuhvata prikupljanje potrebne dokumentacije, kao što su statut preduzeća, osnivački akt, rešenje o imenovanju direktora ili zastupnika, izjava o prihvatanju funkcije direktora/zastupnika, itd. Takođe, potrebno je uplatiti odgovarajuće takse i naknade za registraciju.
+
+      Uz registraciju u APR-u, često je potrebno i ishodovanje drugih dozvola i dozvoljenih dokumenata, u zavisnosti od vrste delatnosti kojom želite da se buduća firma bavi. Na primer, za određene delatnosti može biti potrebna posebna dozvola, poput dozvole za obavljanje medicinske delatnosti ili dozvole za trgovinu određenom robom. Takođe, prilikom osnivanja firme, potrebno je otvoriti poslovni račun kod banke, kao i voditi računovodstvo i izveštavati nadležne organe o finansijskom stanju preduzeća.
+
+      Nakon podnošenja zahteva APR ukoliko je sva dokumentacija pripremljena kako nalažu propisi, u kratkom roku donosi Rešenje o registraciji te možete otpočeti sa Vašim poslovanjem. Važno je napomenuti da za pravna lica u Republici Srbiji važe određene obaveze koje se moraju ispoštovati shodno pozitivnim propisima ( dostavljanje finansijskih, statističkih izveštaja državnim institucijama).
+      
+      Za praćenje propisa i postupak otvaranje firme je preporuka da se angažuje advokat da bi se postupak sproveo brzo i efikasno.`,
       image: image6,
     },
     {
