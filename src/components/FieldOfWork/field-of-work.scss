@@ -44,46 +44,37 @@
   display: block;
   position: absolute;
   top: calc(50% + 5rem);
-  transform: translateY(-50%) rotate(180deg) scale(1);
+  transform: translateY(-50%);
   cursor: pointer;
   transition: transform .2s linear;
   transform-origin: center;
   width: 8rem;
   z-index: 50;
 
-  &:hover {
-    transform: translateY(-50%) rotate(180deg) scale(1.1);
-  }
-
   &.right {
     right: -4rem;
   }
 
   &.left {
-    display: none;
-    transform: translateY(-50%) scale(1);
-    left: 0;
-
-    &:hover {
-      transform: scale(1.1);
-    }
+    transform-origin: center;
+    transform: translateY(-50%) rotate(180deg);
+    left: -3.5rem;
   }
 
-  img {
-    pointer-events: none;
-    width: 100%;
+  svg {
+    fill: $alabaster;
   }
 
   @media screen and (max-width: 768px) {
     width: 6rem;
 
     &.left {
-      left: -2rem;
+      left: -3.4rem;
       display: block;
     }
 
     &.right {
-      right: -2rem;
+      right: -3.4rem;
     }
   }
 }
@@ -94,6 +85,11 @@
   display: flex;
   align-items: center;
   width: 100%;
+  padding-left: 5rem;
+
+  @media screen and (max-width: 768px) {
+    padding-left: 0;
+  }
 }
 
 .c-fields-of-work-slider {
@@ -102,11 +98,6 @@
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   gap: 1.25rem;
-  padding-left: 5rem;
-
-  @media screen and (max-width: 768px) {
-    padding-left: 0;
-  }
 
   &::-webkit-scrollbar {
     display: none;

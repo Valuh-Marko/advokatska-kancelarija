@@ -6,6 +6,7 @@ import image4 from "../assets/images/image4.webp";
 import image5 from "../assets/images/image5.webp";
 import image6 from "../assets/images/image6.webp";
 import image7 from "../assets/images/image7.webp";
+import image8 from "../assets/images/image8.webp";
 
 const ArticlesContext = React.createContext();
 
@@ -142,6 +143,51 @@ export const ArticlesProvider = ({ children }) => {
       Nakon donošenja Zakona o sprečavanju nasilja u porodici dešavao se i veliki broj zloupotreba i lažnih prijava nasilja u porodici. U krivičnom postupku naš tim advokata može Vam pomoći da se odbranite od lažnih prijava za nasilje u porodici, kao i u parničnom postupku u kom je protiv Vas podneta tužba radi zaštite od nasilja u porodici.
       `,
       image: image7,
+    },
+    {
+      title: "Razvod Braka",
+      desc: `Brak je u Republici Srbiji regulisan Porodičnim zakonom, i to kao zakonom uređena zajednica života žene i muškarca koji se može sklopiti samo na osnovu slobodnog pristanka budućih supružnika.
+
+      Brak se sklapa radi ostvarivanja zajednice života. Supružnici su dužni da vode zajednički život i da se uzajamno poštuju i pomažu. Međutim, u praksi to nije uvek slučaj, te neretko dolazi do ozbiljnog i trajnog poremećaja bračnih odnosa između bračnih partnera zbog čega donose odluku o razvodu braka.
+
+      POSTUPAK RAZVODA BRAKA
+
+      Do razvoda braka, prema Porodičnom zakonu koji važi u Republici Srbiji, može doći na dva načina: 
+      -Sporazumom o razvodu braka i
+      -Razvodom po tužbi
+      
+      1)  SPORAZUM O RAZVODU BRAKA
+
+      Jednostavniji, ekonomičniji i najbrži način razvoda braka je svakako podnošenjem predloga za sporazumni razvod braka. Osnovni i prvi uslov za sporazumni razvod braka jeste saglasnost bračnih partnera da se brak razvede. Ukoliko jedan od supružnika ne želi razvod, drugi supružnik koji želi je prinuđen da podnese tužbu za razvod braka. Dakle, ključno i osnovno za sporazumni razvod braka jeste saglasnost i sporazum supružnika o svim bitnim pitanjima, pa i o tome da se brak razvede.
+      Ono što sporazum o razvodu braka mora obavezno da sadrži jeste:
+
+      - pismeni sporazum o vršenju roditeljskog prava ukoliko supružnici imaju zajedničku maloletnu decu i 
+      - pismeni sporazum o deobi zajedničke imovine, ukoliko su u toku trajanja bračne zajednice istu stekli.
+      
+      a)  Sporazum o vršenju roditeljskog prava
+
+      Jedini način kada supružnici mogu da se dogovore da zajednički vrše roditeljsko pravo je upravo ukoliko se opredele za sporazumni razvod braka, te sporazumno i ugovore da će zajednički vršiti roditeljsko pravo.
+
+      Roditelji imaju pravo i dužnost da čuvaju i podižu dete tako što će se oni lično starati o njegovom životu i zdravlju.
+
+      Sporazum o zajedničkom vršenju roditeljskog prava mora se zaključiti u pismenoj formi gde se roditelji pismeno saglašavaju da će roditeljska prava i dužnosti obavljati zajednički, a sastavni deo sporazuma jeste i sporazum o tome šta će se smatrati prebivalištem deteta. Dakle, ukoliko se opredelite za zajedničko vršenje roditeljskog prava ono svakako mora da podrazumeva da uvek postoji dogovor roditelja oko svih pitanja iz sadržine roditeljskog prava, odnosno u pogledu pitanja koja se odnose o staranju o detetu: čuvanje, podizanje, vaspitavanje, obrazovanje, zastupanje, izdržavanje, te upravljanje i raspolaganje imovinom deteta.
+
+      Sporazumom se roditelji mogu opredeliti i na mogućnost da se jednom roditelju poveri vršenje roditeljskog prava, a koji sporazum mora obuhvatiti i sporazum o visini doprinosa za izdržavanje deteta od drugog roditelja sa kojim dete ne živi, kao i sporazum o načinu održavanja ličnih odnosa deteta i roditelja sa kojim dete ne živi. Drugi roditelj kom nije povereno samostalno vršenje roditeljskog prava svakako ima pravo da o pitanjima koja bitno utiču na život deteta odlučuje zajednički i sporazumno sa roditeljem koji vrši roditeljsko pravo. Pitanja koja bitno utiču na život deteta, u smislu Porodičnog zakona, smatraju se naročito: obrazovanje deteta, preduzimanje većih medicinskih zahvata nad detetom, promena prebivališta deteta i raspolaganje imovinom deteta velike vrednosti.
+
+      b)  Sporazum o deobi zajedničke imovine
+
+      Imovina koju su supružnici stekli radom u toku trajanja zajednice života u braku predstavlja njihovu zajedničku imovinu, osim ako bračnim ugovorom nije uređeno drugačije. U sporazumu je neophodno priložiti dokaze o imovini koja je predmet deobe. Predmeti manje vrednosti kao što su pokućstva, lične stvari, nameštaj itd. može se faktički podeliti, bez njihovog preciziranja u samom sporazumu. Kada se sastavlja sporazum o deobi zajedničke imovine mogu se uzeti u obzir eventualno veća ulaganja jednog supružnika u uvećanju zajedničke imovine od drugog, visina prihoda supružnika, vođenja domaćinstva i staranje o deci, a kako bi se ista podelila na najpravičniji način. Ukoliko se ne postigne sporazum o deobi bračne imovine, svaki bračni supružnik ima pravo da pokrene poseban postupak radi deobe zajedničke imovine u kojoj bi se utvrđivao suvlasnički udeo supružnika u zajedničkoj imovini. Naš tim advokata Vam može pomoći prilikom sastavljanja sporazuma o deobi zajedničke imovine ili eventalnog pokretanja pomenutog postupka radi sudske deobe. Pretpostavlja se da su udeli supružnika u zajedničkoj imovini jednaki. Međutim u postupku pred sudom se može dokazivati da je udeo jednog supružnika u sticanju zajedničke imovine veći ukoliko je isti ostvario veće prihode, imao veću ulogu u vođenju poslova domaćinstva, staranja o deci, staranja o imovini, itd.
+
+      Iako se Sud ne meša u deobu bračne imovine kad o istoj postoji sporazum supružnika, svakako ima pravo da se meša u sporazum o vršenju roditeljskog prava jer je neophodno da se isti donese u najboljem interesu deteta. Upravo zbog toga je neophodno precizirati sve detalje vezane za vršenje roditeljskog prava kako bi se izbegle nesuglasice bivših partnera oko bitnih pitanja. Naš tim advokata će Vam pružiti neophodnu pravnu pomoć prilikom sastavljanja predloga za sporazumni razvod braka, kao i dva obavezna, gore pomenuta, sporazuma koja čine njegov sastavni deo. Ono što je bitno napomenuti jeste da supružnike ne može zastupati isti punomoćnik, te je najefikasniji način da angažujete advokatsku kancelariju u kojoj se nalazi tim advokata koji će na najbolji način štititi interese oba bračna partnera prilikom sastavljanja sporazuma. Što se tiče vremena trajanja sudskog postupka, a kada govorimo o sporazumnom razvodu braka, isti traje svega par meseci i najčešće se završava na prvom ili eventualno drugom ročištu, dok u postupku razvoda braka po tužbi isti može trajati i preko godinu dana.
+
+      2)  RAZVOD BRAKA PO TUŽBI
+
+      Tužba za razvod braka se podnosi kada ne postoji saglasnost supružnika u pogledu bitnih pitanja kao što su sam razvod braka, pitanje vršenja roditeljskog prava ukoliko imaju zajedničku mlt. decu, modela viđanja i održavanja ličnih odnosa deteta i roditelja s kojim dete ne živi, pitanje alimentacije i pitanje deobe zajedničke imovine. Tužba se podnosi zbog ozbiljne i trajne poremećenosti bračnih odnosa i/ili nemogućnosti ostvarivanja zajednice života. Nakon podnošenja tužbe, a pre nego što pristupite na ročište za razvod braka, ukoliko imate maloletnu decu, najpre ćete dobiti poziv iz Centra za socijalni rad čija je osnovna uloga i cilj u čitavom procesu – podrška i zaštita interesa deteta/dece. Nakon obavljenog razgovora sa stručnim licima iz Centra za socijalni rad, isti će sudu proslediti svoje mišljenje i predlog o tome šta je u najboljem interesu deteta, koji roditelj je kompetentniji za samostalno vršenje roditeljskog prava, odnosno koji roditelj je podobniji i ima aktivniju ulogu u adekvatnom vaspitanju i zadovoljenju svih potreba deteta. U postupku pred sudom raspravlja se o pitanjima kome će se poveriti vršenje roditeljskog prava, kakav će biti model viđanja i održavanja odnosa deteta i roditelja sa kojim dete ne živi i koliko će iznositi visina doprinosa za izdržavanje deteta od strane roditelja sa kojim dete neće živeti. 
+      Pitanje koliko će trajati postupak pred sudom zavisi najviše od toga oko kojih sve pitanja postoji spor među supružnicima. Postupak se može završiti na prvom ročištu, ali neretke su i situacije kad do ishodovanja pravnosnažne presude prođe i više od godinu dana. Ono što je bitno napomenuti jeste i da ukoliko supružnici ne mogu da se sporazumeju oko podele zajedničke imovine, odluku o tome će svakako doneti sud, ali ne u postupku koji se vodi povodom razvoda braka već u odvojenom postupku. 
+
+      Kako je svaki bračni odnos specifičan, i pitanja koja se mogu pojaviti u postupcima povodom razvoda braka mogu biti različita, manje ili više kompleksna. Odluka o razvodu braka nije laka i prijatna, te i na odluke koje supružnici donose u toku postupka mogu uticati njihove emocije. Ukoliko su Vam potrebni pravni saveti kako da na najadekvatniji način zaštite i ostvarite svoja prava, posavetujte se sa advokatima.
+      `,
+      image: image8,
     },
   ];
 
