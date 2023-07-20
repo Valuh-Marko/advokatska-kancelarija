@@ -20,7 +20,7 @@ export const FieldsOfWork = () => {
     const sliderRefClientWidth = sliderRef.current.scrollWidth;
     const sliderRefChildrenCount = sliderRef.current.childElementCount;
     const sliderRefChildWidth = sliderRef.current.firstChild.clientWidth;
-    const childrenWidth = (parseInt(getComputedStyle(sliderRef.current).getPropertyValue('column-gap')) * (sliderRefChildrenCount - 1)) + (sliderRefChildWidth * (sliderRefChildrenCount - (windowWidth <= 768 ? 1 : 4)));
+    const childrenWidth = (parseInt(getComputedStyle(sliderRef.current).getPropertyValue('column-gap')) * (sliderRefChildrenCount - 1)) + (sliderRefChildWidth * (sliderRefChildrenCount - (windowWidth <= 768 ? 1.5 : 4)));
 
     switch (direction) {
       case 'right':
