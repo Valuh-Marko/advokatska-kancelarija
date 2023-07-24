@@ -9,7 +9,7 @@ export const OurWork = () => {
 
   return (
     <>
-      <div className="c-our-work" id="services">
+      <div className="c-our-work">
         <h2 className="c-out-work__heading">
           Ovo su naša načela zastupanja klijenata
         </h2>
