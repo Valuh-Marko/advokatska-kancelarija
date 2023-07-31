@@ -30,7 +30,7 @@ export const GeneralProvider = ({ children }) => {
       logo: "https://i.imgur.com/RO32zRk.png",
       img: davor,
       desc: `Advokat Davor Marić je rođen 1989. godine u Sarajevu. Nakon završene Gimnazije „Jovan Jovanović Zmaj“ u Novom Sadu upisuje Pravni Fakultet Univerziteta u Novom Sadu 2008. Godine – smer opšti, na kojem i diplomira 08.02.2013. godine.
-      Pripravničku vežbu je obavljao u u advokatskoj kancelariji do 2013. godine do 2016. godine
+      Pripravničku vežbu je obavljao u u advokatskoj kancelariji od 2013. godine do 2016. godine
       Zvanje Master pravnika stiče 2014. godine nakon što je odbranio završni master rad na temu „Pozitivne obaveze država u pogledu zaštite prava na život“ na Pravnom fakultetu Univerziteta u  Novom Sadu.
       Pravosudni ispit je položio 2016. godine. 
       Advokatski ispit je položio 2016. godine.

@@ -39,7 +39,7 @@ export const Header = ({ isArticles }) => {
   return (
     <>
       <header ref={header} className="c-header">
-        <Link href="#" className="c-logo-wrapper" to="/advokatska-kancelarija">
+        <Link href="#" className="c-logo-wrapper" to="/">
           <Logo customClass="c-icon c-icon--logo" />
         </Link>
         <nav className="c-header-nav-wrapper c-header-nav-wrapper--desktop">
@@ -61,15 +61,12 @@ export const Header = ({ isArticles }) => {
                 <a href="#footer" className="c-header__link">
                   Kontakt
                 </a>
-                <Link
-                  to="/advokatska-kancelarija/tekstovi"
-                  className="c-header__link"
-                >
+                <Link to="/tekstovi" className="c-header__link">
                   Stručni Tekstovi
                 </Link>
               </>
             ) : (
-              <Link to="/advokatska-kancelarija" className="c-header__link">
+              <Link to="/" className="c-header__link">
                 Početna
               </Link>
             )}
@@ -142,9 +139,7 @@ export const Header = ({ isArticles }) => {
                       onClick={() => setOpen(!open)}
                       className="c-header__link"
                     >
-                      <Link to="/advokatska-kancelarija/tekstovi">
-                        Stručni Tekstovi
-                      </Link>
+                      <Link to="/tekstovi">Stručni Tekstovi</Link>
                     </motion.a>
                   </>
                 ) : (
@@ -153,7 +148,7 @@ export const Header = ({ isArticles }) => {
                     onClick={() => setOpen(!open)}
                     className="c-header__link"
                   >
-                    <Link to="/advokatska-kancelarija">Početna</Link>
+                    <Link to="/">Početna</Link>
                   </motion.a>
                 )}
               </motion.ul>

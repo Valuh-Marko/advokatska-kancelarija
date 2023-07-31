@@ -16,7 +16,7 @@ function App() {
   let y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   useEffect(() => {
-    location.pathname === "/advokatska-kancelarija/tekstovi"
+    location.pathname === "/tekstovi"
       ? setIsArticles(true)
       : setIsArticles(false);
   }, [location]);
@@ -27,11 +27,8 @@ function App() {
         <div className="App">
           <Header isArticles={isArticles} />
           <Routes>
-            <Route path="/advokatska-kancelarija" element={<Home />} />
-            <Route
-              path="/advokatska-kancelarija/tekstovi"
-              element={<Articles />}
-            />
+            <Route path="/" element={<Home />} />
+            <Route path="/tekstovi" element={<Articles />} />
           </Routes>
           <motion.div className="c-bottom-bg" style={{ y }}></motion.div>
         </div>
