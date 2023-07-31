@@ -30,8 +30,9 @@
   }
 }
 
-.c-out-work__heading {
-  text-align: center;
+.c-our-work__heading {
+  text-align: left;
+  width: 100%;
   font-size: 3rem;
   line-height: 4rem;
   font-weight: 400;
@@ -49,6 +50,10 @@
     z-index: 0;
     width: 9.375rem;
   }
+}
+
+.c-our-work__text {
+  text-align: justify;
 }
 
 .c-our-work__content-holder {

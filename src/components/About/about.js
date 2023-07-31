@@ -13,11 +13,13 @@ export const About = () => {
           <p className="c-about__text">
             Advokat Dijana Biro, advokat Davor Marić i advokat Milan Nedić se
             bave stručnim pružanjem pravne pomoći koje pokrivaju veliki broj
-            oblasti prava. Pružanje pravne pomoći vršimo pred sudovima svih
+            oblasti prava. Pružanje pravne pomoći advokati Dijana Biro, advokat
+            Davor Marić i advokat Milan Nedić vrše pred sudovima svih
             nadležnosti, kao i pred svim drugim državnim organima i drugim
-            subjektima. U društvu koje se bazira na vladavini prava, imamo
-            visoki stepen profesionalne odgovornosti, koja proističe iz obaveze
-            da svoja znanja i sposobnosti podjednako posvetimo klijentima i
+            subjektima. U društvu koje se bazira na vladavini prava, advokat
+            Dijana Biro, advokat Davor Marić i advokat Milan Nedić imaju visoki
+            stepen profesionalne odgovornosti, koja proističe iz obaveze da
+            svoja znanja i sposobnosti podjednako posvetimo klijentima i
             interesima zakonitosti i pravde.
           </p>
         </div>

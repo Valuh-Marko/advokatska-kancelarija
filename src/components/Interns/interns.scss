@@ -116,6 +116,8 @@
 }
 
 .c-interns__register-desc {
+  text-align: justify;
+
   &.c-interns__register-desc--mail {
     display: flex;
     flex-direction: column;
