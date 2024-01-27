@@ -140,7 +140,7 @@ export const GeneralProvider = ({ children }) => {
   const fieldsOfWork = [
     {
       title: "Ugovorno pravo",
-      desc: "Konsultacije, prouačavanje i izrada svih vrsta ugovora: ugovor o kupoprodaji nepokretnosti  (stana, kuće, pracele), ugovor o kupoprodaji pokretnih stvari, ugovor o doživotnom izdržavanju, ugovor o zakupu, ugovor o poklonu, ugovor o zajmu itd, sačinjavanje svih vrsta izjava i specijalnih punomoći, postupak pred javnim beležnikom",
+      desc: "Konsultacije, proučavanje i izrada svih vrsta ugovora: ugovor o kupoprodaji nepokretnosti  (stana, kuće, pracele), ugovor o kupoprodaji pokretnih stvari, ugovor o doživotnom izdržavanju, ugovor o zakupu, ugovor o poklonu, ugovor o zajmu itd, sačinjavanje svih vrsta izjava i specijalnih punomoći, postupak pred javnim beležnikom",
       icon: contract,
     },
     {
@@ -160,7 +160,7 @@ export const GeneralProvider = ({ children }) => {
     },
     {
       title: "Stvarno i građansko pravo",
-      desc: "Zastupamo klijenate u parničnim, vanparničnim i drugim postupcima gde prilikom konsultacija dajemo procenu mogućnosti uspeha u postupku. Konsultacije i zastupanje u predmetima iz porodičnog prava u postupcima razvoda braka, poveravanje maloletne dece roditeljima, alimentacija, podela zajedničke imovine itd, kao i u postupcima iz naslednog prava i to sastavljanje zaveštanja, ugovora o doživotnom izdržavanju, pokretanje ostavinskog postupka, zastupanje u ostavinskom postupku. Konsultacije I zastupanje u postupcima proglašenja nestalog lica za umrlo, , lišenje poslovne sposobnosti. Savetovanje i zastupanje u oblasti gradnje i dobijanja neophodnih dozvola pred nadležnim organima. Pravna analiza u oblasti nepokretnosti, zastupanje u vezi sa uknjižbom nepokretnosti, zastupanje i savetovanje u imovinsko - pravnim sporovima, u postupku eksproprijacije, deoba zajedničke imovine, uređenje međa.",
+      desc: `Zastupamo klijenate u parničnim, vanparničnim i drugim postupcima gde prilikom konsultacija dajemo procenu mogućnosti uspeha u postupku. Konsultacije i zastupanje u predmetima iz porodičnog prava, u postupcima razvoda braka, poveravanje maloletne dece roditeljima, alimentacija, podela zajedničke imovine, kao i u postupcima iz naslednog prava, sastavljanje zaveštanja, ugovora o doživotnom izdržavanju, pokretanje ostavinskog postupka, zastupanje u ostavinskom postupku. Konsultacije I zastupanje u postupcima proglašenja nestalog lica za umrlo, lišenje poslovne sposobnosti.`,
       icon: pedestrian,
     },
     {
@@ -180,7 +180,7 @@ export const GeneralProvider = ({ children }) => {
     },
     {
       title: "Postupak pred Katastrom",
-      desc: "Uknjizba, provera imovine, promena podataka u listovima nepokretnosti pre RGZ",
+      desc: "Uknjizba, provera imovine, promena podataka u listovima nepokretnosti pred RGZ",
       icon: cadastre,
     },
     {
@@ -190,7 +190,7 @@ export const GeneralProvider = ({ children }) => {
     },
     {
       title: "Ostalo",
-      desc: "Konsultacije, prouačavanje, izrada, vođenje postupka u svim ostalim pravnim stvarima",
+      desc: "Konsultacije, proučavanje, izrada, vođenje postupka u svim ostalim pravnim stvarima",
       icon: other,
     },
   ];

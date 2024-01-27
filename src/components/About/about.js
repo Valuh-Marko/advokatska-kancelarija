@@ -19,7 +19,7 @@ export const About = () => {
             subjektima. U društvu koje se bazira na vladavini prava, advokat
             Dijana Biro, advokat Davor Marić i advokat Milan Nedić imaju visoki
             stepen profesionalne odgovornosti, koja proističe iz obaveze da
-            svoja znanja i sposobnosti podjednako posvetimo klijentima i
+            svoja znanja i sposobnosti podjednako posvete klijentima i
             interesima zakonitosti i pravde.
           </p>
         </div>
