@@ -2,7 +2,6 @@ import React from "react";
 import davor from "../assets/images/davor-maric.webp";
 import milan from "../assets/images/milan-nedic.webp";
 import dijana from "../assets/images/dijana-biro.webp";
-import dunja from "../assets/images/dunja.webp";
 import greekInterior from "../assets/images/greek-interior.webp";
 import ladyJustice from "../assets/images/lady-justice.webp";
 import library from "../assets/images/library.webp";
@@ -61,14 +60,7 @@ export const GeneralProvider = ({ children }) => {
       phone: "38163650603",
     },
   ];
-  const interns = [
-    {
-      title: "Advokatski Pripravnik",
-      name: "Dunja Ušjak",
-      img: dunja,
-      desc: `Dunja Ušjak rođena je 1993. godine u Novom Sadu. Nakon završetka Gimnazije " Svetozar Marković", u Novom Sadu, upisuje Pravni fakultet u Novom Sadu, smer unutrašnjih poslova čiju diplomu stiče 2020. godine. Tokom studiranja učestvoala je na Javnopravnoj sekciji u oblasti upravnog prava. Poseduje sertifikat Osnovi programiranja i sertifikat programa Rezilijentnost- ključ uspeha u teškim situacijama. Pored maternjeg jezika govori engleski a služi se i španskim. Trenutno obavlja pripravničku vežbu kod advokata Milana Nedića.`,
-    },
-  ];
+  const interns = [];
   const latinSayings = [
     {
       latin: "Alteri stipulari nemo potest",
